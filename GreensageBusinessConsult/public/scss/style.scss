@@ -1,0 +1,47 @@
+@import "generics/colors";
+@import "generics/general";
+// @import "generics/others";
+// @import "generics/headings";
+// @import "generics/hero";
+
+// -----------------------------------------------------------------------------------------
+                            // MOBILE NAVE BAR
+                            // -----------------------------------------------------------------------------------------   
+@import "layouts/mobile-navbar";
+@import "layouts/header";
+
+@import "layouts/footer";
+@import "page/services-menu";//be removed
+@import "page/home";
+@import "page/search";
+@import "page/about";
+
+
+@import "page/single-category";//
+@import "page/single-course";
+
+@import "page/contact";
+@import "generics/responsive";
+
+
+@import "page/training";//
+@import "page/common-component";//
+@import "page/top-job"; // 
+@import "page/single-job"; // 
+@import "page/hr-page";
+@import "page/course-registration";
+@import "page/apply-now";
+@import "page/all-course-category";
+@import "page/all-courses";
+@import "page/download_calendar";
+@import "page/cv";
+// 
+// 
+
+// @import "generics/responsive";
+
+
+
+
+
+

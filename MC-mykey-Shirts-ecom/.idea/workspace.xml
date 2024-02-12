@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5517455-da61-45bc-85e4-a5bd1ed91c5a" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/class/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="BLADE" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>[</find>
+      <find>Shoes B</find>
+      <find>Watch-1DDYB</find>
+      <find>3</find>
+      <find>'size'           =&gt; 'small',</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>=&gt; 6,</replace>
+      <replace>=&gt; 5,</replace>
+      <replace>6</replace>
+      <replace>'size'           =&gt; 'small',</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/class/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/text" />
+        <option value="$PROJECT_DIR$/class/vendor/gloudemans/shoppingcart/config/cart.php" />
+        <option value="$PROJECT_DIR$/class/vendor/gloudemans/shoppingcart/src/Cart.php" />
+        <option value="$PROJECT_DIR$/class/database/migrations/2018_12_30_025931_create_categories_table.php" />
+        <option value="$PROJECT_DIR$/class/app/Category.php" />
+        <option value="$PROJECT_DIR$/class/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/class/database/seeds/CategoryTableSeeder.php" />
+        <option value="$PROJECT_DIR$/class/app/Product.php" />
+        <option value="$PROJECT_DIR$/class/app/Http/Controllers/CategoryController.php" />
+        <option value="$PROJECT_DIR$/class/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/class/app/Http/Controllers/CheckoutController.php" />
+        <option value="$PROJECT_DIR$/class/resources/views/cart/checkout.blade.php" />
+        <option value="$PROJECT_DIR$/class/resources/views/frontend/product-details.blade.php" />
+        <option value="$PROJECT_DIR$/class/resources/views/layout/front.blade.php" />
+        <option value="$PROJECT_DIR$/class/app/Http/Controllers/CartController.php" />
+        <option value="$PROJECT_DIR$/class/resources/views/cart/cart.blade.php" />
+        <option value="$PROJECT_DIR$/class/database/migrations/2018_12_30_025800_create_products_table.php" />
+        <option value="$PROJECT_DIR$/class/database/seeds/ProductsTableSeeder.php" />
+        <option value="$PROJECT_DIR$/class/resources/views/admin/product/index.blade.php" />
+        <option value="$PROJECT_DIR$/class/routes/web.php" />
+        <option value="$PROJECT_DIR$/class/app/Http/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/class/app/Http/Controllers/FrontendController.php" />
+        <option value="$PROJECT_DIR$/class/resources/views/frontend/index.blade.php" />
+        <option value="$PROJECT_DIR$/class/resources/views/frontend/categoryDetails.blade.php" />
+        <option value="$PROJECT_DIR$/class/public/css/pageStyle.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/class/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/class/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/class/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/class/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/class/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/class/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/class/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/class/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/class/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/class/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/class/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/class/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/class/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/class/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/class/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/class/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/class/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/class/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/class/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/class/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/class/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/class/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/class/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/class/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/class/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/class/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/class/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/class/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/class/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/class/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/class/vendor/composer" />
+      <path value="$PROJECT_DIR$/class/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/class/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/class/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/class/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/class/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/class/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/class/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/class/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/class/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/class/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/class/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/class/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/class/vendor/almasaeed2010/adminlte" />
+      <path value="$PROJECT_DIR$/class/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/class/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/class/vendor/unisharp/laravel-ckeditor" />
+      <path value="$PROJECT_DIR$/class/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/class/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/class/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/class/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/class/vendor/mews/purifier" />
+      <path value="$PROJECT_DIR$/class/vendor/gloudemans/shoppingcart" />
+      <path value="$PROJECT_DIR$/class/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/class/vendor/laravel/scout" />
+      <path value="$PROJECT_DIR$/class/vendor/stripe/stripe-php" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="666" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MC-mykey-Shirts-ecom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MC-mykey-Shirts-ecom" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laradev\MC-mykey-Shirts-ecom\class\public\uploads\images" />
+      <recent name="C:\xampp\htdocs\laradev\MC-mykey-Shirts-ecom\class\public\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5517455-da61-45bc-85e4-a5bd1ed91c5a" name="Default" comment="" />
+      <created>1546411304952</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546411304952</updated>
+      <workItem from="1546411308142" duration="290000" />
+      <workItem from="1546488044562" duration="17591000" />
+      <workItem from="1546574647922" duration="25811000" />
+      <workItem from="1546613018985" duration="1073000" />
+      <workItem from="1546614366984" duration="1335000" />
+      <workItem from="1546615829083" duration="125000" />
+      <workItem from="1546616323644" duration="18975000" />
+      <workItem from="1546650618756" duration="4260000" />
+      <workItem from="1546751575368" duration="23935000" />
+      <workItem from="1546807376063" duration="456000" />
+      <workItem from="1546833522459" duration="27592000" />
+      <workItem from="1547013395706" duration="633000" />
+      <workItem from="1547017159566" duration="318000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122548000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19838946" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3296875" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

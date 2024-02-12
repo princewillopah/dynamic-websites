@@ -1,0 +1,28 @@
+@import "../generics/colors";
+
+
+.navbar-border-animation::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: $color-6;
+  display: block;
+  position: relative;
+  top: 2px;
+  transition: all 700ms ease;
+  border-radius: 5%; }
+
+.navbar-border-animation:hover::after {
+  width: 100%; }
+
+.sticky {
+  padding: 0;
+  // box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2) !important;
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,.24),0 0 8px 0 rgba(0,0,0,.12);
+  transition: all .5s ease !important;
+ }
+
+// .my-logo {
+//   width: 61px;
+//   height: 60px;
+//   transition: all 1.5s ease !important; }

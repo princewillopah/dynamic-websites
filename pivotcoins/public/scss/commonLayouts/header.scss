@@ -1,0 +1,79 @@
+@import "../generics/colors";
+
+#header{
+  #top-bar{
+    display:flex;
+    background: $color-1;
+    .language{
+      li{padding: 12px;}
+    }
+    a{
+      color: #aaa !important;
+      font-size: 16px; 
+      font-weight: 400;
+      // // font-family:Uni Sans ThinCap;
+      // font-family:UniSansW01-Regular; 
+      font-family: 'Blinker', sans-serif!important;
+      &:hover{transition: all .5s ease;  color: $color-6 !important;}
+    }
+    .sales{
+      .sale-top, .sale-down{display:block;} 
+      li{  margin-left:10px;text-align: center; padding:8px;}
+      .sale-top{font-size:12px;color:#aaa;font-weight: 400;font-style: Uni Sans Thin, 'Blinker', sans-serif!important;}
+      .sale-down{font-size:12px;color:$color-6!important; font-weight: 300;font-style:'Blinker', sans-serif!important;}
+    }
+    .faq-reg-log{
+      li{
+        border-right: 1px solid #aaa;
+        transition: all .5s ease;
+        font-size: 16px; 
+      font-weight: 400;
+      line-height: 35px;
+      // font-family:Uni Sans ThinCap;
+      // font-family:UniSansW01-Regular;
+      font-family: 'Blinker', sans-serif!important;
+        a{
+          color: #aaa !important;
+          font-family: 'Blinker', sans-serif!important;
+          //color: #b3b3b3;
+        }
+        &:first-child{border-left: 1px solid #aaa; padding: 8px 16px 8px 16px; color:#aaa;}
+    
+        &:hover{
+          background: $color-2;
+          transition: all .5s ease;
+          a{ transition: all .5s ease;  color: $color-6 !important; font-family: 'Blinker', sans-serif!important;}
+          &:first-child{background: $color-1;}
+          &:nth-child(2){background: $color-1;}
+        }
+      }
+  
+      // li:nth-child(2){border-right:none !important;}
+    }
+
+  }
+  #navbar{
+    .navbar{padding:26px 16px;}
+    .nav-color {
+      background:white;
+      border-bottom: #b3b3b3 1px solid;
+      .navbar-brand{padding: 0!important;}
+    }
+    a.nav-link{
+      color:$color-1;
+      font-size: 16px; 
+      font-weight: 600;
+      // font-family:Uni Sans W01 Book;
+
+      font-family:UniSansW01-Regular;
+      // font-family: 'Blinker', sans-serif!important;
+      text-transform:uppercase;
+      transition: all .9s ease; 
+      &:hover{
+        color:$color-6; transition: all .9s ease;
+    
+      }
+    }
+    li.active  a.nav-link{color:$color-6!important;}
+  }
+}

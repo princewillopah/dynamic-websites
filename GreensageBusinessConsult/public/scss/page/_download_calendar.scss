@@ -1,0 +1,125 @@
+p.top-message{text-align: center;margin-bottom: -50px;font-size: 20px;
+  margin-top: 50px;opacity: .5}
+#download-calender{
+  padding: 70px 0;
+  .download-calender{
+      box-shadow: $box-shadow;
+      max-width: 400px;
+      margin: auto;
+      margin-bottom: 20px;
+      &-content{
+          margin-bottom: 20px;
+          padding: 20px 30px;
+      
+      }
+      h2{
+          text-align: center;
+          margin-bottom: 30px
+      }
+            .form-group{
+          margin-bottom: 10px;
+          label{margin-bottom: 1px;color:darken(#eee,30%)}
+          .form-control{
+
+          }
+      }
+      .btn-sub{
+          background: transparent;border: 1px solid transparent;text-align: center;
+          color:darken(#eee,30%);display: block;width: 80%;margin: auto;
+          margin-top: 15px;box-shadow: $box1;padding: 10px 0;
+      }  
+      &:hover{ 
+          transition: $trans1;
+           .form-group{
+                 transition: $trans1;
+          label{margin-bottom: 1px;color:darken(#eee,80%);  transition: $trans1;}
+          .form-control{
+
+          }
+      }
+      .btn-sub{ 
+            transition: $trans1;
+          background: transparent;border: 1px solid darken(#eee,30%);
+          color:darken(#eee,80%)
+      } 
+          
+      }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen  and (max-width: 500px) {
+  p.top-message{
+      margin-bottom: -20px;
+      font-size: 14px;
+      line-height: 18px;
+  margin-top: 30px;}  
+
+ #download-calender{
+  padding: 40px 0;
+  .download-calender{
+      // border:1px solid red;
+      box-shadow: $box-shadow;
+      max-width: 400px;
+      // padding: 0px 20px;
+      margin: auto;
+      text-align: center;
+      h2{
+          text-align: center;
+          margin-bottom: 20px;
+          font-size: 20px
+      }
+  }
+}
+
+
+  
+}
+
+// =================================================
+// ==================================================
+
+#course-content{
+  .course-content{
+      padding: 30px 20px;
+       box-shadow: $box-shadow;
+      .course-conten-info{
+         h2{
+          margin-bottom: 30px
+       } 
+          .course-main{
+              margin-bottom: 20px;
+              .course-title{
+                  font-size: 16px;
+                  font-weight: 500;
+                  margin-bottom: 10px;
+                  background: $head-0;
+                  color: #eee;
+                  padding: 7px;
+                  line-height: 17px
+              }
+
+          }
+      }
+     
+      
+  }
+}
+
+#download-calender.download-page{
+    .download-calender{
+      box-shadow: $box-shadow;
+        max-width: 600px;
+  }
+}

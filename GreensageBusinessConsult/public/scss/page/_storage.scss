@@ -1,0 +1,56 @@
+
+// --------------------------road tanking -------------------------------
+#tanks,#tanks2{ 
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url("../img/home/bg-1.png");
+   
+    .content{
+        height: 100%;
+        display: flex;
+        place-items: center;
+        .inner{
+            width:80%
+        }
+        h3{
+            color:$color-1a;
+            margin-bottom: 10px;
+            font-size: 30px;font-weight: 800
+        }
+    }
+    .img{
+        img{border:2px solid $color-2;padding: 2px}
+    }
+}
+#tanks2{padding-top: 0}
+// ====================================================================================
+    // ====================================================================================
+                                    // responsive
+// ==================================================================================
+// ====================================================================================
+@media (min-width: 320px) and (max-width: 500px) {
+
+    #tanks,#tanks2{
+        text-align: center; ;
+         padding: 20px 0;
+         .content{
+             .inner{
+                 margin-bottom: 10px;
+                 width: 100%;
+                 h3{
+                    font-size: 20px 
+                 }
+                 p{font-size: 15px;line-height: 20px}
+             }
+         }
+     }
+     #tanks2{
+         .content{
+              margin-top: 10px 
+         }
+       
+     }
+    
+
+
+}

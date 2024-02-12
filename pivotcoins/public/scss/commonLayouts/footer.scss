@@ -1,0 +1,87 @@
+@import "../generics/colors";
+
+.get-started{
+  // background: #f9f9f9;
+    background: #eee;
+  .bbtn{text-align:center;
+    .bttn-fill.bttn-md {
+      font-size: 1rem;
+      padding: 12px 15px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+#footer{
+  background: $color-2;
+  // .mobile-logo{display: none;}
+  .footer-main{
+    padding: 100px 20px 80px;
+    .company-logo{margin-bottom:20px;}
+    .media {
+      .nav-link{width:40px;height:40px; background: #838383; margin-right: 5px; border-radius: 50%;padding: 7px 0px 5px 0px;border: 2px solid #838383;transition:all .9s ease;text-align: center; line-height: 16px;
+        .fa{color:$color-1;font-weight:700;transition:all .9s ease;}
+        &:hover{
+          border: 2px solid #838383;transition:all .9s ease;
+          .fa{color:$color-7;transition:all .9s ease;}
+        }
+        &:hover{background: transparent;}
+      }
+    }
+
+    .main-footer{
+      h5{color:$color-4;font-weight: bold;text-transform: uppercase;font-size: 16px;font-family:UniSansW01-Regular,'Blinker', sans-serif!important;}
+      .abt{
+        a{color: #838383;padding: 0 0 7px 0;}
+      }
+    }
+    .main-other{
+      a{color:#838383;padding: 0 0 7px 0;margin-right: 10px; font-size: 25px}
+    }
+    .main-footer4{color:#838383;
+      .footer-contact{display:flex;margin-bottom:7px;
+        .fa{color:#838383;margin-right:8px;margin-top: 5px;}
+        span{font-size: 14px;}
+      }
+    }
+  }
+  .copyright-color{
+    background: $color-1;
+    padding: 24px;
+    .copyright{
+      text-align: center;
+      color: #555;
+
+    } // .copyright
+  }//.copyright-color
+
+
+// ==========================================================
+//        btn-back-to-top
+// =========================================================
+
+.btn-back-to-top{
+	position: fixed;
+	bottom: 10px;
+	right: 30px;
+	background-color: transparent;
+	border: 1px solid $color-6;
+	color: $color-6;
+
+	/*z-index: 2147483647;*/
+	/*display: block;*/
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+	width: 40px;
+	height: 40px;
+	border-radius: 0;
+	font-size: 24px;
+	line-height: 24px;
+	text-align: center;
+	/*-webkit-transition-duration: 500ms;*/
+	transition-duration: 500ms;
+	display: none;
+}
+.btn-back-to-top:hover{	background-color: $color-7; color: $color-1;	border: 1px solid $color-1;	}
+
+
+}//footer

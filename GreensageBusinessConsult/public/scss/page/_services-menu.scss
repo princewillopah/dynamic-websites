@@ -1,0 +1,508 @@
+// @import "../generics/others"; 
+// @import "../generics/colors";
+// @import "../generics/headings";
+
+
+
+
+// // ------------------------------
+//     // all pages banners
+// // -----------------------
+
+// #bg-tanks{
+//   background: $color-a;
+//   background: url("../img/services/tanks/banner.jpg") no-repeat center center $color-a;
+//   background-size: cover;
+//   width: 100%;
+//   height: 65vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+
+// #bg-chemical{
+//   background: $color-a;
+//   background: url("../img/services/chemical/banner.jpg") no-repeat center center $color-a;
+//   background-size: cover;
+//   width: 100%;
+//   height: 65vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+
+// #bg-food{
+//   background: $color-a;
+//   background: url("../img/services/food/banner.jpg") no-repeat center center $color-a;
+//   background-size: cover;
+//   width: 100%;
+//   height: 65vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+
+// #bg-gas{
+//   // background: $color-a;
+//   // background: url("../img/services/bg.jpg") no-repeat center center $color-a;
+//   // background-size: cover;
+//   // width: 100%;
+//   // height: 65vh;
+//   // display: flex;
+//   // align-items: center;
+//   // justify-content: center; 
+//   // background: $color-a;
+//   background: url("../img/services/bg.jpg") no-repeat ;
+//   // background-size: cover;
+//   width: 100%;
+//   height: 69vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+// #bg-petroleum{
+//   background: $color-a;
+//   background: url("../img/services/petroleum/banner.jpg") no-repeat center center $color-a;
+//   background-size: cover;
+//   width: 100%;
+//   height: 65vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+
+// #bg-supply{
+//   background: $color-a;
+//   background: url("../img/services/supply/banner.jpg") no-repeat center center $color-a;
+//   background-size: cover;
+//   width: 100%;
+//   height: 65vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+// #bg-transport{
+//   background: $color-a;
+//   background: url("../img/services/transport/banner.jpg") no-repeat center center $color-a;
+//   background-size: cover;
+//   width: 100%;
+//   height: 65vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+// #bg-ibc{
+//   background: $color-a;
+//   background: url("../img/services/ibc/banner.jpg") no-repeat center center $color-a;
+//   background-size: cover;
+//   width: 100%;
+//   height: 65vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+
+// #bg-safety{
+//   background: $color-a;
+//   background: url("../img/services/safety/banner.jpg") no-repeat center center $color-a;
+//   background-size: cover;
+//   width: 100%;
+//   height: 65vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center; 
+// }
+// // ------common features
+// .bg-services-menu  .contents{
+//   background: $color-a;
+//   width: 50%;
+//   padding: 20px;
+//       h1{
+//          color: #fff ;
+//          font-weight: bold;
+//          font-size: 35px;
+//        }  
+//   .sub{
+//       color: #fff;
+//       font-style: italic; 
+//   }
+// }
+
+// // --------------------------------------------------------
+//     // css for section menu pages
+// // ==------------------------------------------------------
+// .section-main-intro{
+//   padding: 100px;
+//   background: #f0f3f2;
+//   .section-main-intro-msg{
+//       width:80%;
+//       margin: auto;
+//       p{
+//           margin-bottom: 40px;
+//       }
+//   }
+// }
+
+
+
+// .section-main{
+//   padding: 100px 0 80px 0;
+//   .section-menu-head{
+//      border-left: 4px solid $color-a;
+//     padding: 0 0 0 15px;
+//     margin-bottom: 30px;
+//       h2{
+//            font-family: 'Source Sans Pro', sans-serif !important; 
+//       }
+//   }
+//   .section-menu-img{
+//        .first{margin-top: 30px}
+       
+//        .row{ 
+//               margin: 0;
+//            .col-md-6{
+//                padding: 0;
+//                .section-menu-sub-img{
+//                padding-top: 5px;
+//              }
+//            }
+//            .col-md-6:first-child{padding-right: 2px}
+//            .col-md-6:last-child{padding-left: 2px;} 
+//       }
+    
+//   }
+// }
+
+
+// .section-menu-list{
+//     margin-bottom: 20px;
+//     .list-wrap{
+//         display:flex;
+//         align-items: baseline;
+//         margin-bottom: 10px;
+//         i{color:$color-a;
+//             margin-right: 10px; 
+//         }
+//         p{margin-bottom: 0;
+//             line-height: 20px}
+        
+//     }
+// }
+
+// // --------------------------------------------------------
+//     // css for section menu 2 pages with multiple dropdowns
+// // --------------------------------------------------------
+
+// .section-main2-intro{
+//   padding: 100px;
+//   // background: #eee;
+//   .section-main2-intro-msg{
+      
+//   }
+//   .section-main2-intro-img{
+      
+//   }
+// }
+// .bg{background: $color-b} 
+// .section-menu2{
+//   padding: 100px;
+//   .section-menu2-img{
+//       margin-bottom: 20px;
+//   }
+//   .section-menu2-message{
+//       .section-menu-message-head{
+//            border-left: 4px solid $color-a;
+//               padding: 0 0 0 15px;
+//               margin-bottom: 30px;
+//                 h2{
+//                      font-family: 'Source Sans Pro', sans-serif !important; 
+//                 }
+//       }
+//       .section-menu-message-content{
+          
+//           p{}
+//           .section-menu-list{
+//               padding-left: 15px;
+//               p{font-size: 14px; font-style: italic}
+//               .fa-dot-circle-o{font-size: 12px}
+//           }
+//       }
+//   }
+// }
+// // --------------------------------------------------------
+//     // used for slide in tank storage page
+// // ==------------------------------------------------------
+
+// #hero-price.tankstorag {
+//   .caption-inner{
+//       background: $color-a;
+//       padding: 30px;
+//       h1{color:#fff}
+//   }
+// }
+
+// // --------------------------------------------------------
+// // =======================================================
+// //       services max 500   RESPOSIVE CODE
+// // ============================================================
+// // --------------------------------------------------------
+// @media screen and (max-width: 500px) /* Mobile */ {
+//   // .desktop{display:none}
+//   // .mobile{display:block}
+//   .bg-services-menu  .contents{
+//     width: 80%;
+//     padding: 5px 0 5px 10px;
+//     h1{
+//        font-size: 18px;
+//        margin-bottom:0;
+//      }  
+//      .sub{
+//     font-size:15px;
+//   }
+//   }
+
+
+//   #bg-tanks{
+//     background: url("../img/services/tanks/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh; 
+//         align-items: end;
+//   }
+  
+//   #bg-chemical{
+//     background: url("../img/services/chemical/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh;
+//         align-items: end;
+//   }
+  
+//   #bg-food{
+//     background: url("../img/services/food/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh;
+//         align-items: end;
+//   }
+  
+//   #bg-gas{
+//     background: url("../img/services/gas/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh; 
+//         align-items: end;
+//   }
+//   #bg-petroleum{
+//     background: url("../img/services/petroleum/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh;
+//         align-items: end;
+//   }
+  
+//   #bg-supply{
+//     background: url("../img/services/supply/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh;
+//         align-items: end;
+//   }
+//   #bg-transport{
+//     background: url("../img/services/transport/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh;
+//         align-items: end; 
+//   }
+//   #bg-ibc{
+//     background: url("../img/services/ibc/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh;
+//         align-items: end;
+//   }
+  
+//   #bg-safety{
+//     background: url("../img/services/safety/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 35vh;
+//     align-items: end;
+//   }
+// // --------------------------------------
+
+// .section-main{
+//   padding: 30px 0 30px 0;
+//   .section-menu-head{
+//     padding: 0 0 0 15px;
+//     margin-bottom: 15px;
+//       h2{
+          
+//          font-size: 20px
+//       }
+      
+//   }
+//     .section-menu-content{
+//           p{font-size: 15px;
+//               text-align: justify;
+//               line-height: 24px;
+//         }
+//       }
+//   .section-menu-img{
+//        .first{margin-top: 30px}
+       
+//        .row{ 
+//               margin: 0;
+//            .col-md-6{
+//                padding: 0;
+//                .section-menu-sub-img{
+//                padding-top: 5px;
+//              }
+//            }
+//            .col-md-6:first-child{padding-right: 2px}
+//            .col-md-6:last-child{padding-left: 2px;} 
+//       }
+    
+//   }
+// }
+// // ---------------------------------------------
+// .section-menu-list{
+//   padding-left: 20px;
+//   .list-wrap{
+//       margin-bottom: 10px;
+//       i{ 
+//           font-size: 14px;
+//       }
+//       p{
+//           font-size: 15px;
+//           line-height: 20px;
+//           text-align:left;
+//       }
+      
+//   }
+// }
+// // -------------------------------------------------
+// .section-main2-intro{
+//   padding: 30px 0;
+ 
+//   .section-main2-intro-msg{
+//       p{
+//           font-size: 15px;
+//           line-height: 24px;
+//           text-align: justify;
+//       }
+//   }
+//   .section-main2-intro-img{
+ 
+//   }
+// }
+
+// .section-menu2{
+//   padding: 30px 0;
+//   .section-menu2-img{
+//       margin-bottom: 20px;
+//       .img-fluid {
+//         max-width: 100%;
+//         height: auto;
+//         width: 50%;
+//         display: block;
+//         margin: auto;
+//     }
+//   }
+//   .section-menu2-message{
+//       .section-menu-message-head{
+//               padding: 0 0 0 15px;
+//               margin-bottom: 15px;
+//                 h2{
+//                    font-size: 20px   
+//                 }
+//       }
+//       .section-menu-message-content{
+          
+//           p{font-size: 15px;
+//               line-height: 24px;
+//               text-align: justify}
+//           .section-menu-list{
+//               padding-left: 15px;
+//               p{ line-height: 24px;
+//                   font-size: 14px; 
+//                   text-align:left;
+//                 }
+//               .fa-dot-circle-o{font-size: 12px}
+//           }
+//       }
+//   }
+// }
+
+// #tankstorage.section-menu2{
+//   padding: 30px 0;
+//   .section-menu2-img{
+//       img{width: 100%}
+//   }
+// }
+
+
+// }//end max 500
+
+// // --------------------------------------------------------
+// // =======================================================
+// //     services max 400  RESPOSIVE CODE
+// // ============================================================
+// // --------------------------------------------------------
+// @media screen and (max-width: 400px) /* Mobile */ {
+//   .bg-services-menu  .contents{
+//     width: 80%;
+//     padding: 5px 0 5px 10px;
+//         h1{
+//            font-size: 16px;
+//            margin-bottom:0;
+//          }  
+//          .sub{
+//         font-size:14px;
+//       }
+//   }
+
+//   #bg-tanks{
+//     background: url("../img/services/tanks/banner-mobile-xs.jpg") no-repeat center center $color-a;
+//     height: 25vh; 
+//     align-items: end;
+//   }
+  
+//   #bg-chemical{
+//     background: url("../img/services/chemical/banner-mobile.jpg") no-repeat center center $color-a;
+//     height: 25vh;
+//     align-items: end;
+//   }
+  
+//   #bg-food{
+//     background: url("../img/services/food/banner-mobile-xs.jpg") no-repeat center center $color-a;
+//     height: 25vh;
+//     align-items: end;
+//   }
+  
+//   #bg-gas{
+//     background: url("../img/services/gas/banner-mobile-xs.jpg") no-repeat center center $color-a;
+//     height: 25vh; 
+//     align-items: end;
+//   }
+//   #bg-petroleum{
+//     background: url("../img/services/petroleum/banner-mobile-xs.jpg") no-repeat center center $color-a;
+//     height: 25vh;
+//     align-items: end;
+//   }
+  
+//   #bg-supply{
+//     background: url("../img/services/supply/banner-mobile-xs.jpg") no-repeat center center $color-a;
+//     height: 25vh;
+//     align-items: end;
+//   }
+//   #bg-transport{
+//     background: url("../img/services/transport/banner-mobile-xs.jpg") no-repeat center center $color-a;
+//     height: 25vh; 
+//     align-items: end;
+//   }
+//   #bg-ibc{
+//     background: url("../img/services/ibc/banner-mobile-xs.jpg") no-repeat center center $color-a;
+//     height: 25vh;
+//     align-items: end;
+//   }
+  
+//   #bg-safety{
+//     background: url("../img/services/safety/banner-mobile-xs.jpg") no-repeat center center $color-a;
+//     height: 25vh;
+//     align-items: end;
+//   }
+
+
+
+
+
+// }//400
+
+
+
+
+

@@ -1,0 +1,655 @@
+@import "../generics/colors";
+
+// =============slide============================================
+
+
+#hero-price{
+  .container-fluid{padding-right: 0px;padding-left: 0px;}
+}
+// =========================================================
+                      // SLIDE
+// =========================================================
+.mycourasel{
+  position: relative!important;
+  .carousel-item{
+
+    .img-container{
+      position: relative!important;
+      img{
+        //  position: absolute;
+        animation: animate 50s ease;
+        -o-animation:animate 50s ease;
+        -webkit-animation: animate 50s ease;
+      }
+      @keyframes animate{
+        0%{
+          -webkit-transform-origin:bottom right;
+          -moz-transform-origin:bottom right;
+          -ms-transform-origin:bottom right;
+          -o-transform-origin:bottom right;
+          transform-origin:bottom right;
+          -webkit-transform:scale(1.0);
+          -moz-transform:scale(1.0);
+          -ms-transform:scale(1.0);
+          -o-transform:scale(1.0);
+          transform:scale(1.0);
+        }
+        100%{
+          -webkit-transform:scale(1.3);
+          -moz-transform:scale(1.3);
+          -ms-transform:scale(1.3);
+          -o-transform:scale(1.3);
+          transform:scale(1.3);
+        }
+      }
+    }
+    .carousel-caption{
+      width: 50%;
+      position: absolute;
+      margin-left: 100px;
+      h1{font-size: 35px; font-family: Uni Sans Thin, 'Blinker', sans-serif; text-transform:capitalize;font-weight: 600;margin-bottom: 10px; color:$color-4;}
+      p{font-size: 17px; font-family: 'Blinker', serif;line-height: 27px; color:$color-7;font-weight: 300;font-style: italic;margin-bottom: 20px;}
+
+      .btn{
+        padding: 10px 30px; border: 2px solid $color-3; color:$color-3; background:transparent;transition:all .9s ease;
+        &:hover{transition:all .9s ease;border: 2px solid $color-3;color:$color-1;background:$color-3;}
+      }
+
+        .caption-inner{
+        width:70%;
+      }
+      &-1{
+        left: 0;transform: translateY(-40%);bottom: 0;top: 50%;text-align:left;
+      }
+      &-3{
+        left: 50%;transform: translateY(-50%);bottom: 0;top: 50%;
+
+      }
+      &-4{
+        left: 50%;transform: translateY(-50%);bottom: 0;top: 40%;
+      }
+      &-5{
+        left: 30%;transform: translateY(-50%);bottom: 0;top: 50%;z-index: 10;
+      }
+
+    }//carousel-caption
+  }
+  // .carousel-control-prev, .carousel-control-next {width: 5%!important;  z-index:10;}
+  .carousel-control-prev, .carousel-control-next {width: 5%!important;}
+  .carousel-control-prev .fa-arrow-left, .carousel-control-next .fa-arrow-right{background-color: white;border:2px solid white; padding: 10px 10px;border-radius: 50% ;color:$color-2;}
+  .fa-arrow-left:hover,.fa-arrow-right:hover{color:$color-4;background-color: rgba($color-2,0.9);border:2px solid $color-2;transition: all .7s ease;}
+   .courasel-overlay{position: absolute!important;width: 100%;height: 100%;top: 0;left: 0;background: rgba(0,0,0,.8);
+     //z-index:-10;
+    }
+
+
+}//.mycourasel
+//================
+
+// ============old hero page===============================================================
+// #hero{
+//   //background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('../img/home/main/dots.png') no-repeat center center fixed ;
+//   background: rgba(13, 17, 32, 1) url('../img/home/main2/dots.png') no-repeat center center;
+
+//   background-size: cover;
+//   width: 100%;
+//   height:80vh;
+//   //display: flex;
+//   //align-items: center;
+//   //justify-content: center;
+//   position: relative;
+//   .contents{
+//     position: absolute !important;
+//     left: 0;
+//     top: 50vh !important;
+//     transform: translateY(-120%);
+//     //width: 100%;
+//     &-message{
+//       // h1{color:white;font-weight: bold}
+//       h1{color:white;font-family: Uni Sans Thin;}
+//       div{color: #888; font-style: italic;
+//         a{color:white;text-decoration: none;}
+//       }
+//     }
+//   }
+//     #particles-js{
+//         height:605px;
+//     }
+// }//hero
+// ===========to be deleted=====================================================
+//#current-prices{
+//   // background:$color-1;
+//   padding:20px;
+//   box-shadow: 0 2px 2px 0 rgba(0,0,0,.24),0 0 2px 0 rgba(0,0,0,.12);
+//   a{color:$color-1;}
+// }
+// =====================================================================
+#hero-price{
+  position: relative;
+}
+.current-prices{
+  position:absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%,90%);
+  background: #fff;
+  display: block;
+  padding:20px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.24),0 0 2px 0 rgba(0,0,0,.12);
+
+  a{
+    text-transform: uppercase;
+   padding: .7rem 4rem;
+    border-left: #b3b3b3 solid 2px;
+    color:$color-1;
+    span{display: block;color:blue}
+    &:first-child{border-left:none;}
+  }
+}
+
+.col-md-4.current-prices-info{
+  text-align: center;
+  border-right:2px solid $color-7;
+  &:last-child{border:none!important;}
+}
+.current-prices-info{
+  p{color:$color-1; font-weight:700;font-family:UniSansW01-Regular,'Blinker', sans-serif!important;}
+  p:last-child{color:$color-6; font-family:UniSansW01-Regular!important; font-size: 45px ;line-height: 100%;font-weight: 400 !important;}
+}
+// =========================================================
+                      // CRYPTO INTRO
+// =========================================================
+// .crypto-intro{
+//   //margin-top: 80px;
+//   padding-top: 100px;
+//   padding-bottom: 100px;
+//   background: $color-1;
+//   .crypto-intro-img{
+//     img{display:block; margin:auto;}
+//   }
+//   .crypto-intro-msg{
+//     h2{color:$color-6;}
+//     p{color:$color-4; font-weight: 300;line-height: 28px}
+//     a.btn.bttn-stretch.bttn-md.bttn-primary{color:$color-6!important;font-weight:bold;padding: 5px 0;margin-top:15px;}
+
+//   }
+// }
+// =========================================================
+                      // ABOUT US
+// =========================================================
+#home-about-page{
+  margin-top: -80px;
+  padding-top: 250px;
+  padding-bottom: 100px;
+  .info{
+    &-head{
+      margin-top:30px;
+      h1{font-size:35px;font-weight:bold;color:$color-1;text-transform:uppercase;}
+    }
+    // p{}
+       a.btn.bttn-stretch.bttn-md.bttn-primary{color:$color-1!important;font-weight:bold;padding: 5px 0;margin-top:15px;}
+  }
+}
+
+// =========================================================
+                      // WHY US
+// =========================================================
+#why-us{
+  background: $color-1;
+  .head{
+    h1{color: $color-6;}
+    img {
+      max-width: 100%;
+      height: auto;
+     }
+  }
+  .why-us-main{
+    padding: 12px 0px;
+    margin-bottom: 30px;
+    //background: $color-1;
+    transition: all .9s ease;
+    // box-shadow: 0px 2px 10px rgba(0,0,0,.1);
+    //box-shadow: 0 2px 2px 0 rgba(0,0,0,.24),0 0 2px 0 rgba(0,0,0,.12);
+    &:hover{
+      transition:all .9s  ease;
+      box-shadow: 0 8px 8px 0 rgba(225,225,225,.14),0 0 8px 0 rgba(225,225,225,.12);
+      transform: translateY(-5px);
+    }
+    .icon{
+      img{display: block;margin: 0 auto 25px auto ;}
+    }
+     h3{text-align:center; font-size: 20px;margin-bottom: 10px;text-transform: uppercase;color:$color-4;}
+     p{margin-bottom: 10px;text-align: center;color:#555;}
+    }//.why-us-mai
+}//#why-us
+
+// =========================================================
+                      // OUR PLANS
+// =========================================================
+#our-plans{
+// background:red;
+  .our-plans-link{
+    .our-link{
+          display: flex;
+          align-items: end;
+          img{
+            width: 60px;height: 60px;
+            margin-right: 10px;
+          }
+      p{font-size:32px;margin-bottom: 10px;color:rgba($color-1,.8);margin-top: 20px;color: #636b6f;font-family: 'Nunito', sans-serif;font-weight: 200;}
+    }
+  }
+  .ours{
+    h2{color: #636b6f!important;font-family: 'Nunito', sans-serif!important;font-weight: 200!important;}
+  }
+}
+// =========================================================
+                      // STEPS
+// =========================================================
+.steps{
+  background: $color-5;
+  // height: 100%;
+
+  #steps{padding-right: 30px;}
+  #steps .owl-carousel .owl-stage{width:100%!important;}
+  #steps .owl-carousel.owl-drag .owl-item{width:100%!important;}
+  #sync2 .item {background: #C9C9C9;padding: 10px 10px 9px 0px;margin: 5px;border-radius: 3px;text-align: center;cursor: pointer;display: flex;}
+  #sync2 .item img{width: 50px; height: 50px;margin:10px;opacity: .6; filter: grayscale(100%) brightness(0%);transition: all .9s ease;}
+  #sync2 .item .topic{text-align:left;}
+  #sync2 .item .topic h3 {font-size: 19px;color:$color-1;font-weight: 600}
+  #sync2 .item .topic p{font-size: 14px;color:$color-2;line-height: 23px;}
+  #sync2 .item i.fa.fa-angle-right{font-size: 60px;margin: auto 10px;display:none}
+  #sync2 .current .item {
+    background: $color-1;
+    h3{color:$color-7;font-weight: 600}
+    p{color:$color-4}
+    i.fa.fa-angle-right{display:inline;color:$color-7}
+    img{opacity: 1;transition: all .9s ease; filter: grayscale(0) brightness(100%);}
+  }
+
+  div#sync1.owl-carousel.owl-theme.owl-loaded.owl-drag{
+    // background:linear-gradient(rgba($color-1, 1), rgba($color-1, .6)),url('../img/home/step-bg.jpg') no-repeat center center fixed ;
+    // background-size:cover;
+    // width: 100%;
+    // height:100%;
+    // background: $color-1;
+    background: transparent;
+  }
+
+  #sync1 .item {background: transparent;padding: 0;margin: 5px auto;}
+  #sync1 .item h2{font-size: 35px; font-weight: 600;color:$color-6;text-transform: uppercase}
+  #sync1 .item p{line-height: 25px;font-weight: 300;font-size: 16px;color:$color-4;}
+
+  // .owl-theme .owl-nav {
+    /*default owl-theme theme reset .disabled:hover links */
+  // }
+  .owl-theme .owl-nav [class*='owl-'] {
+    transition: all .3s ease;
+  }
+  .owl-theme .owl-nav [class*='owl-'].disabled:hover {
+    // background-color: #D6D6D6;
+    background-color: $color-4;
+  }
+  #sync1.owl-theme {
+    position: relative;
+  }
+  #sync1.owl-theme .owl-next,
+  #sync1.owl-theme .owl-prev {
+    width: 22px;
+    height: 40px;
+    margin-top: -20px;
+    position: absolute;
+    top: 50%;
+  }
+  #sync1.owl-theme .owl-prev {
+    left: 10px;
+  }
+  #sync1.owl-theme .owl-next {
+    right: 10px;
+  }
+}
+
+
+// =========================================================
+                      // OUR TOOLS
+// =========================================================
+#out-tools{
+  background: $color-2;
+  .head{ h1{color:$color-4}}
+  .bitcoin-calculator{
+      div#coin-ponent{
+        div{background: $color-1!important;}
+        div div a{display: none;}
+        div div div div svg g g path{display: none;}
+        // div div div{border-left:1px solid $color-7!important;
+        //   border-right:1px solid $color-7!important;  }
+      }
+  }//.bitcoin-calculator
+  .enter-msg{
+    text-align:center;
+    p{padding-top: 20px;color:rgb(128, 128, 128);}
+  }
+}//#out-tools
+
+//#our-market-resource{
+//  background: url('../img/29-new.png') no-repeat center center ;
+//  background-size: cover;
+//  width: 100%;
+//  height:100vh;
+//  position: relative;
+//  .contents{
+//    position: absolute !important;
+//    left: 0;
+//    top: 30vh !important;
+//    transform: translateY(-120%);
+//    //width: 100%;
+//    &-message{
+//      h1{color:white;font-weight: bold}
+//      div{color: #888; font-style: italic;
+//        a{color:white;text-decoration: none;}
+//      }
+//    }
+//  }
+//  .chart-img{
+//    padding-top: 100px!important;
+//    .btcwdgt-footer{display: none!important;}
+//  }
+//}//hero
+
+// =========================================================
+                      // SOUR MARKET RESOURSE
+// =========================================================
+.our-market-resource{
+background: $color-1;
+  .head{h1{color:$color-4;}}
+  .our-market-resource-main{
+    h2{color: $color-6;text-transform: uppercase; font-weight: bold;padding-bottom: 5px; margin-bottom: 0}
+    p.sub{font-style: italic;font-weight: bold;color:$color-7}
+    p{line-height: 28px;color: $color-4;font-weight: 300}
+    .our-market-resource-main-tabulate{
+      .icon-para{display: flex;padding-bottom: 8px;
+        .fa.fa-check{color: $color-7;padding-right: 15px;line-height: 28px;}
+        p{font-style: italic;font-size: 14px;margin-bottom: 0;}
+      }
+    }
+
+  }
+  .chart-img{
+    .btcwdgt-chart .btcwdgt-footer{display: none!important;}
+  }
+}
+
+
+
+// =========================================================
+                      // CURRENT PRICE INFO
+// =========================================================
+
+// =========================================================
+                      // OUR TEAM
+// =========================================================
+.our-team{
+  background: $color-2;
+  .head{h1{color:$color-6;}}
+
+  .our-team-main{
+    .name{
+      h3{font-weight: 600; font-size: 24px; color:$color-4;margin-bottom: 4px; text-align:center;}
+      p{font-weight: 400; font-size: 15px; color:$color-6; text-align:center; }
+    }
+
+    .snip1295 {
+      position: relative;
+      float: left;
+      overflow: hidden;
+      margin: 10px 1%;
+      padding: 6px;
+      min-width: 230px;
+      max-width: 315px;
+      width: 100%;
+      box-shadow: none !important;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      -webkit-box-sizing: padding-box;
+      box-sizing: padding-box;
+    }
+    .snip1295 img {
+      max-width: 100%;
+      vertical-align: top;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    }
+    .snip1295 .border {
+      position: absolute;
+      opacity: 0.45;
+      // border:2px solid $color-6!important;
+    }
+    // div.border.one{border:2px solid $color-6!important;}
+    div.border.one{
+       border-left:2px solid $color-4!important;
+       border-top:2px solid $color-4!important;
+       border-right:2px solid $color-6!important;
+       border-bottom:2px solid $color-6!important;
+      }
+      div.border.two{
+        border-left:2px solid $color-6!important;
+        border-top:2px solid $color-6!important;
+        border-right:2px solid $color-4!important;
+        border-bottom:2px solid $color-4!important;
+       }
+    .snip1295 .border:before,
+    .snip1295 .border:after,
+    .snip1295 .border div:before,
+    .snip1295 .border div:after {
+      background-color: $color-3;
+      position: absolute;
+      content: "";
+      display: block;
+      -webkit-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+    }
+    .snip1295 .border:before,
+    .snip1295 .border:after {
+      width: 0;
+      height: 1px;
+    }
+    .snip1295 .border div:before,
+    .snip1295 .border div:after {
+      width: 1px;
+      height: 0;
+    }
+    .snip1295 .border.one {
+      left: 0;
+      top: 0;
+      right: 12px;
+      bottom: 12px;
+    }
+    .snip1295 .border.one:before,
+    .snip1295 .border.one div:before {
+      left: 0;
+      top: 0;
+    }
+    .snip1295 .border.one:after,
+    .snip1295 .border.one div:after {
+      bottom: 0;
+      right: 0;
+    }
+    .snip1295 .border.two {
+      left: 12px;
+      top: 12px;
+      right: 0;
+      bottom: 0;
+    }
+    .snip1295 .border.two:before,
+    .snip1295 .border.two div:before {
+      right: 0;
+      top: 0;
+    }
+    .snip1295 .border.two:after,
+    .snip1295 .border.two div:after {
+      bottom: 0;
+      left: 0;
+    }
+    .snip1295 a {
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      z-index: 1;
+    }
+    .snip1295:hover .border:before,
+    .snip1295.hover .border:before,
+    .snip1295:hover .border:after,
+    .snip1295.hover .border:after {
+      width: 100%;
+    }
+    .snip1295:hover .border div:before,
+    .snip1295.hover .border div:before,
+    .snip1295:hover .border div:after,
+    .snip1295.hover .border div:after {
+      height: 100%;
+    }
+  }
+}
+
+// =========================================================
+                      // TESTIMONIAL
+// =========================================================
+.testimonials{
+  background: linear-gradient(rgba(13, 17, 32, 0.9), rgba(13, 17, 32, 0.9)),url('../img/home/testimonials/bg.jpg') no-repeat center center fixed ;
+  background-size:cover;
+  width: 100%;
+  height:80vh;
+
+  .head{
+    h1{ color: $color-7!important;}
+  }
+  .slide-msg{
+    .person{padding: 10px;
+      .name-pic{
+        color: white;
+        display: flex;
+        .pics{width: 80px; height: 80px;
+        img{border-radius: 50%;border: 5px solid white;}
+        }
+        .name{margin-left: 15px; padding: 20px 0;
+        p{margin-bottom: 0;font-weight: 600;color:$color-4;}
+          span{font-style: italic; color:$color-7;font-size: 14px}
+        }
+      }
+      h4{font-size: 15px; color: $color-4;font-weight: 300; font-style: italic;line-height: 24px}
+    }
+  }
+  .owl-dots{margin-top:-30px;}
+}
+// ====================================================
+// =========================================================
+                      // OUR SERVICE ICON
+// =========================================================
+#our-services-icons{
+  padding: 50px;
+  // background: #fff;
+  background:#eee!important;
+  border-top:  solid 2px #f2f2f2;
+  .head{text-align:center;margin-bottom:50px}
+  .icoins{
+    //margin-right: 40px;
+    a{
+      margin: 0 15px 30px 15px;
+      //transition: all .9s ease;
+      img{
+        //height: 26px;
+        filter: grayscale(100%) brightness(120%);
+        opacity: .6;
+        -webkit-filter: grayscale(100%) brightness(120%);
+        transition: all .9s ease;
+      }
+      &:hover img{
+        cursor: pointer;
+        opacity: 1;
+        transition: all .9s ease;
+        filter: grayscale(0) brightness(100%);
+      }
+
+    }
+
+  }
+}
+// =========================================================
+                      // OUR SECURITY
+// =========================================================
+#our-security {
+  padding: 100px;
+  .head{
+    h2{color:$color-6!important}
+  }
+}
+#our-security .security {
+  height: 100%;
+  padding-left: 120px;
+}
+#our-security .security .security-slide .item .name-pic .pics {
+  padding-right: 20px;
+}
+#our-security .security .security-slide .item .name-pic .pics:first-child {
+  padding-left: 20px;
+}
+#our-security .security .security-slide .item .name-pic .pics img {
+  opacity: 0.6;
+  -webkit-filter: grayscale(100%) brightness(0%);
+  transition: all 0.9s ease;
+}
+#our-security .security .security-slide .owl-item.active.center .item .name-pic .pics img {
+  opacity: 1;
+  -webkit-filter: grayscale(0%) brightness(100%);
+  transition: all 0.9s ease;
+}
+
+// #our-security{
+//   // background:#f9f9f9!important;
+//   padding:100px;
+//     // .head{margin-right: -100px}
+//      // .head{padding-right: -100px}
+//   .security{
+//     height:100%;
+//     // background:white;
+//     // clip-path:polygon(15% 0%, 100% 0px, 100% 100%, 0% 100%);
+//     padding-left: 120px;
+//       .security-slide{
+//           .item{
+//               .name-pic{
+//                   .pics{
+//                       padding-right: 20px;
+//                       &:first-child{padding-left: 20px;}
+//                       // img{
+//                         // height: 200px;opacity: .6; -webkit-filter: grayscale(100%) brightness(0%);transition: all .9s ease;
+
+//                       // }
+//                   }
+//               }
+//           }
+
+
+//       }
+//   }
+  // ------------------------------------------------
+  // .current .item {opacity: 1;transition: all .9s ease;-webkit-filter: grayscale(0) brightness(100%);}
+//  .security .security-slide .owl-item.active.center .item .name-pic .pics img {
+//     opacity: 1;
+//     -webkit-filter: grayscale(0%) brightness(100%);
+//     transition: all 0.9s ease;
+//  }
+//}
+
+// #sync2 .item img{width: 50px; height: 50px;margin:10px;opacity: .6; -webkit-filter: grayscale(100%) brightness(0%);transition: all .9s ease;}
+// #sync2 .item .topic{text-align:left;}
+// #sync2 .item .topic h3 {font-size: 19px;color:$color-1;font-weight: 600}
+// #sync2 .item .topic p{font-size: 14px;color:$color-2;line-height: 23px;}
+// #sync2 .item i.fa.fa-angle-right{font-size: 60px;margin: auto 10px;display:none}
+// #sync2 .current .item {
+//   background: $color-1;
+//   h3{color:$color-7;font-weight: 600}
+//   p{color:$color-4}
+//   i.fa.fa-angle-right{display:inline;color:$color-7}
+//   img{opacity: 1;transition: all .9s ease;-webkit-filter: grayscale(0) brightness(100%);}
+// }

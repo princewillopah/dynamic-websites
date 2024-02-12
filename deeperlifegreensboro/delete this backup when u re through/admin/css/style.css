@@ -1,0 +1,41 @@
+.table {
+    margin-bottom: 20px;
+}
+.table-dark {background: #27293d!important;}
+thead tr{background: #3e3e53 !important; color:#fff;}
+tbody tr{ color:#aaa;}
+.btn-color{background: #1e1e2f;color: #aaa;}
+.btn-color:hover{color: #aaa;background: #14122f;}
+.alert-success {color: #aaa;background-color: #2b7a78;border-color: #2b7a78;}
+.modal-open .modal .modal-content {border-radius: 0;background:#27293d;}
+.modal-open .modal .modal-header, .modal-open .modal .modal-footer {border-color: #1e1e2f;background:#1e1e2f!important;color:#aaa!important}
+.modal-open .modal .modal-title {font-size: 1.05rem!important;}
+.modal-open .modal .close {color: #8a8d93;opacity: 1;}
+.modal-body span{color:#aaa!important;}
+.btn-outline-danger {color: #2b7a78;background-color: transparent;background-image: none;border-color: #3aafa9!important;transition: all .9s ease;}
+.btn-outline-danger:hover {
+    color: #aaa;
+    background-color: #2b7a78;
+    border-color: #2b7a78;
+    transition: all .9s ease;
+}
+.btn-outline-danger:not(:disabled):not(.disabled):active, .btn-outline-danger:not(:disabled):not(.disabled).active, .show > .btn-outline-danger.dropdown-toggle {
+    background-color: transparent;
+}
+.event-text{font-weight: bold;color: #2b7a78;}
+.event-table thead tr{background: transparent !important; color:#fff;}
+.event-table  .table td,.event-table .table th {text-align: left;}
+.event-table  .table td{font-weight: 300}
+
+div.page-content div.page-header div.container-fluid{display: flex!important;}
+div.page-content div.page-header div.container-fluid h2{line-height: 37px!important}
+div.page-content div.page-header div.container-fluid a{margin-left: auto !important;}
+
+nav#sidebar ul {
+    max-height: none;
+    margin-bottom: 70px!important;
+}
+/*background:#1e1e2f;*/
+/*background: #27293d;*/
+/*color: #2b7a78;*/
+/*color: #3aafa9;*/

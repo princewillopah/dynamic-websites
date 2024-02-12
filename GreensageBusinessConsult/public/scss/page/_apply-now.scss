@@ -1,0 +1,182 @@
+/////input field /////
+.inp {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    // max-width: 280px;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .inp .label {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    font-size: 16px;
+    color: rgba($head-0, 0.5);
+    font-weight: 500;
+    transform-origin: 0 0;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+    pointer-events: none;
+  }
+  .inp .focus-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // background: rgba(0, 0, 0, 0.05);
+      // background: red;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  .inp input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+         appearance: none;
+    width: 100%;
+    border: 0;
+    font-family: inherit;
+    padding: 16px 12px 0 0px;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.02);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+    color: $head-0;
+    transition: all 0.15s ease;
+  }
+  .inp input:hover {
+    background: rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+  }
+  .inp input:not(:-moz-placeholder-shown) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .inp input:not(:-ms-input-placeholder) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .inp input:not(:placeholder-shown) + .label {
+    color: rgba(0, 0, 0, 0.5);
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .inp input:focus {
+    background: rgba(0, 0, 0, 0.05);
+    outline: none;
+    box-shadow: inset 0 -2px 0 $color-1;
+  }
+  .inp input:focus + .label {
+    color: $color-1;
+    transform: translate3d(0, -12px, 0) scale(0.75);
+  }
+  .inp input:focus + .label + .focus-bg {
+    transform: scaleX(1);
+    transition: all 0.1s ease;
+  }
+  ////radio button
+  .radio-box{
+      p{font-weight: bold;color:$head-0;text-align: left;font-size: 18px}
+      .radio{display: flex;}
+  }
+  
+  .rad-label {
+    display: flex;
+    align-items: center;
+  // justify-content: 
+      flex-direction: row;
+    border-radius: 100px;
+    padding: 1px 15px;
+    margin: 10px 0px;
+  
+    cursor: pointer;
+    transition: .3s;
+      width: 35%;
+      
+  }
+  
+  .rad-label:hover,
+  .rad-label:focus-within {
+    background: hsla(0, 0%, 80%, .14);
+  }
+  
+  .rad-input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    z-index: -1;
+  }
+  
+  .rad-design {
+    width: 22px;
+    height: 22px;
+    border-radius: 100px;
+  
+    // background: linear-gradient(to right bottom, hsl(154, 97%, 62%), hsl(225, 97%, 62%));
+    background: linear-gradient(to right bottom, $color-1, rgba($color-1,.3));
+      position: relative;
+  }
+  
+  .rad-design::before {
+    content: '';
+  
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+  
+    background: hsl(0, 0%, 90%);
+    transform: scale(1.1);
+    transition: .3s;
+  }
+  
+  .rad-input:checked+.rad-design::before {
+    transform: scale(0);
+  }
+  
+  .rad-text {
+    color: hsl(0, 0%, 60%);
+    margin-left: 5px;
+    letter-spacing: 2px;
+    // text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+  
+    transition: .3s;
+  }
+  
+  .rad-input:checked~.rad-text {
+    // color: hsl(0, 0%, 40%);
+        color: $head-0;
+  }
+  
+  ///////////////////////file input
+  .personal-info .box{
+      .inputfile + label{width: 100%;
+          max-width: 100%;
+         margin-top: 10px;
+              color: hsl(0, 0%, 60%);;
+           border: 2px solid hsl(0, 0%, 60%);
+            // box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.3);
+          &:hover{
+                color: $color-1;
+           border: 2px solid $color-1;
+              transition: $trans1
+          }
+      }
+  }
+  ///////////////submit//////////
+  .btn-job{
+      background: $color-1;border:1px solid $color-1;
+      color:#fff;padding: 10px 40px;font-weight: 700;letter-spacing: 2px;
+      &:hover{
+          transition: $trans1;
+           border: 1px solid darken($color-1,10%);
+            background: darken($color-1,10%);
+      }
+  }

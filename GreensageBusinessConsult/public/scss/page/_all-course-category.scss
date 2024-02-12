@@ -1,0 +1,147 @@
+#all-cat-hero{
+    height: 50%;
+    background: url("../img/courses/all-cat-banner.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+          .container{
+              height: 100%;
+              .row{ 
+                  height: 100%;
+                  .col-md-12{
+                         #all-cat-hero-inner{
+                             height: 100%;
+                             width:100%;
+                          display: flex;
+                           align-items: center;
+                           justify-content: flex-start;
+                             .all-cat-hero-content{
+                                   font-family:"montserrat", sans-serif !important;
+                                   width: 100%;
+                                 h3{
+                                    text-align: center;
+                                     font-size: 50px;
+                                     color:#aaa;
+                                     font-weight: 700;
+                                     
+                                  }
+                              
+                             }
+                             // width: 80%;
+                             // margin: auto;
+                        }//.main-content
+              }//col-12
+              }//row.iv-row
+          }//container.iv-container
+    
+      }
+  
+  @media screen and (max-width: 766px) {
+      #all-cat-hero{
+    height: 40%;
+  
+          .container{
+              .row{ 
+                  .col-md-12{
+                         #all-cat-hero-inner{
+                             .all-cat-hero-content{
+                                 h3{
+                                   // text-align: center;
+                                     font-size: 25px;
+                                     
+                                  }
+                              
+                             }
+                             // width: 80%;
+                             // margin: auto;
+                        }//.main-content
+              }//col-12
+              }//row.iv-row
+          }//container.iv-container
+    
+      }
+  }
+  
+  @media screen and (max-width: 500px) {
+      #all-cat-hero{
+    height: 30%;
+  
+          .container{
+              .row{ 
+                  .col-md-12{
+                         #all-cat-hero-inner{
+                             .all-cat-hero-content{
+                                 h3{
+                                   // text-align: center;
+                                     font-size: 20px;
+                                     
+                                  }
+                              
+                             }
+                             // width: 80%;
+                             // margin: auto;
+                        }//.main-content
+              }//col-12
+              }//row.iv-row
+          }//container.iv-container
+    
+      }
+  }
+  /////////////////////////////////  /////////////////////////////////  /////////////////////////////////
+
+/////////////////////////////////  /////////////////////////////////  /////////////////////////////////
+#all-cats{
+    padding: 80px 0;
+    [class*="col-"]{
+        margin-bottom: 15px;
+        .card{
+            border:none;
+            box-shadow: $box1;
+            .card-img-top{
+                max-height: 200px;
+            }
+            .card-body{
+                .card-title{
+                    font-size: 17px;font-weight: 700;
+                }
+                .card-text{
+                    margin-bottom: 20px
+                }
+                a.btn.btn-primary{
+                    background: transparent;color:$head-0;
+                    font-weight: 600;letter-spacing: 2px;
+                    border: 1px solid transparent;
+                    box-shadow: $box2;
+                    &:hover{
+                        transition: $trans1;
+                       box-shadow: $box-shadow;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    #all-cats{
+    padding: 40px 0;
+    [class*="col-"]{
+        margin-bottom: 15px;
+        .card{
+            text-align: center;
+            .card-body{
+                a.btn.btn-primary{
+                   display: block;
+                    
+                   
+                }
+            }
+        }
+    }
+}
+}
+  /////////////////////////////////  /////////////////////////////////  /////////////////////////////////
+
+    /////////////////////////////////  /////////////////////////////////  /////////////////////////////////
+
+ 

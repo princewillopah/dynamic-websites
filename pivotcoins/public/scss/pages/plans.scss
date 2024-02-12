@@ -1,0 +1,137 @@
+@import "../generics/colors";
+
+#bgplans{
+  //background: linear-gradient(rgba(19, 25, 38, 1), rgba(13, 17, 32, 1)), url('../../img/about/about.png') no-repeat center center ;
+  background: url('../img/plans/5.gif') no-repeat center center ;
+  background-size: cover;
+  width: 100%;
+  height:500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // clip-path: polygon(100% 0px, 100% 80%, 52% 80%, 50% 91%, 48% 80%, 0px 80%, 0px 0px);
+  .contents{
+    //position: absolute !important;
+    //left: 0;
+    //top: 50vh !important;
+    //transform: translateY(-120%);
+    //width: 100%;
+    &-message{
+      h1{color:$color-4;font-weight: bold;font-size:55px;}
+      div{color:$color-7; font-style: italic;
+        a{text-decoration: none;}
+      }
+    }
+  }
+}
+
+.plans-main{
+  background: #f9f9f9;
+  // margin-top: -150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  img{text-align: center;display: block; margin: 0 auto;}
+  // p{line-height:28px}
+  .ref-main-main{
+    h1{
+      font-size: 55px;color:$color-4;font-weight: 700;;
+    }
+    p{ color:rgba($color-1, .8); font-weight:400; line-height: 28px;}
+  }
+}
+// ------------------------------
+#investment-plans{
+   background: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .investment_plan_tab{
+
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;/*  // make sure it wraps*/
+    background: #f9f9f9;
+    }
+    .tabs label {
+      order: 1;/*  // Put the labels first*/
+      display: block;
+      padding: 1rem 3rem;
+      margin-right: 0rem;
+        border-right: 1px solid #dedede;
+      cursor: pointer;
+      background: #eee;
+      font-weight: 300;
+      transition: background ease 0.2s;
+        color:rgba(0,0,0,0.43);
+        transition: all .9s ease;
+        font-size: 25px;
+        &:hover{
+            color: teal;
+            transition: all .9s ease;
+        }
+    }
+    .tabs .tab {
+      order: 99; /* // Put the tabs last */
+      flex-grow: 1;
+      width: 100%;
+      display: none;
+      padding: 0rem 2rem;
+      background: #f9f9f9;
+    }
+    .table{
+        color: #555;
+        tr:first-child td{border-top: none;}
+        tr:nth-child(5) td{border-bottom: 1px solid #dee2e6;}
+        td{border-color: #dee2e6;padding: 1.2rem 0}
+        td:last-child{text-align:right;}
+        tr:last-child td{text-align: center; width: 100%;font-size:18px;color:$color-6;}
+    }
+    
+    .tabs input[type="radio"] {
+      display: none;
+    }
+    .tabs input[type="radio"]:checked + label {
+      background: #f9f9f9;
+        // background: #fff;
+        color:teal;
+        transition: all .9s ease;
+    }
+    .tabs input[type="radio"]:checked + label + .tab {
+      display: block;
+    }
+    
+    @media (max-width: 45em) {
+      .tabs .tab,
+      .tabs label {
+        order: initial;
+      }
+      .tabs label {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0.1rem;
+      }
+    }
+
+  }
+}
+
+.calc{
+  background: $color-1;
+  // margin-top: -150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .head{color:$color-6;}
+  label{color:$color-5}
+
+  .form-control{
+    color: $color-4;
+    background-color: $color-1!important;
+    
+    border: 1px solid $color-6;
+    border-radius: 0.25rem;
+    // transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    // }
+  }
+}
+
+// plans-main

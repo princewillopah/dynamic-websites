@@ -1,0 +1,18 @@
+{
+  "name": "pivotcoins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/style.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "C:\\xampp\\htdocs\\prince\\jobs\\pivotcoins.git"
+  },
+  "author": "prince",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
+}

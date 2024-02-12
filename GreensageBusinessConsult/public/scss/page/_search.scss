@@ -1,0 +1,213 @@
+#search-hero{ 
+  height: 70vh;
+  background: $bg-3;
+  .container,.row{height: 100%}  
+  .content-inner{
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .content{
+         
+          .top{
+               width: 80%;
+             margin: 0 auto 50px;;
+              h2{text-align: center;
+                  margin-bottom: 20px;
+                      display: inline-block;
+                      // font-family: 'poppinsbold';
+                      // text-transform: uppercase;
+                      font-size: 45px;
+                      color: $head-0;
+                      line-height: 55px;
+                      margin: 0 0 20px 0;
+              }
+              h3{
+                  text-align: center;
+                  font-size: 20px;
+                  margin: 0 0 20px 0;
+                  font-weight: normal;
+                  color: #666666;
+              }
+          }
+          
+          .form-wrap{
+               z-index: 9;
+            box-shadow: 0 1px 6px 0 rgba(32, 33, 36,.28)!important; 
+            width: 90%;
+             // margin-top: ;
+            margin: auto;
+                 background:#fff; 
+            padding: 30px; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            form{
+                width: 100%;
+                //  align-items: center;
+                // text-align: center;
+                // display: grid;
+                // grid-template-rows: auto auto auto auto;
+                input[type=text] {
+                    // width: 25%;
+                    padding: 10px 12px;
+                    // margin: 10px 25px;
+                    margin: 0;
+                    height: 50px;
+                    border-radius: 0;
+                    box-sizing: border-box;  
+                       margin-left: 0!important;
+                         margin-right: 0!important;
+
+                         font-size: 15px;
+                          &::placeholder { 
+                            color: rgb(177,177,177);
+                            opacity: 1; 
+                          }
+                }
+
+                   select {
+                        width: 100%;
+                        padding: 18px 22px;
+                           padding: 10px 12px;
+                         height: 50px;
+                         border-radius: 0;
+                        // border: none;
+                        // border-radius: 5px;
+                          margin-left: 0!important;
+                         margin-right: 0!important;
+                         cursor: pointer;
+                        color: rgb(177,177,177);
+                         font-size: 15px;
+                        // background-color: #8842d5; 
+                             border-left: none;
+                    }
+
+
+                    .col-sm-2.btn{
+                      padding-right: 0;
+                       padding-left: 5px;
+                     input[type=submit] {
+                      width: 100%;
+                      padding: 10px 12px;
+                      // margin-left: 10px;
+                      height: 50px;
+                      border-radius: 0; 
+                      box-sizing: border-box; 
+                      // background: red;
+                      background: linear-gradient(to top, rgba($head-0,1), rgba($head-0,.7));  
+  
+                       color:lighten($bg-2, 79%);
+                       font-weight: 700;
+                       border:1px solid #333D51;
+                         &:hover{
+                               background: linear-gradient(to top, darken($head-0,12%), darken($head-0,1%)); 
+                            color:#c2bcbc;
+                             transition: ease .9s all;
+                         }
+  
+                   }  
+                  }//submit
+  
+
+                .form-control:focus {
+                    color: #495057;
+                    background-color: #fff; 
+                    border-color: #ced4da!important; 
+                    outline: 0;
+                  box-shadow:none;
+                }//input outline
+
+
+            }//form
+
+
+          }
+          
+      }
+  }
+}
+
+///////////////////////////////////////////////////////////////
+#search-content{ 
+  padding: 50px 0;
+  background: $bg-3;
+  .result{ 
+      margin-bottom: 30px;
+      h2{color:$head-0; font-weight: 700;text-transform: uppercase}
+  }
+  .wrapper{
+     
+      margin-bottom: 20px;
+      display: flex;
+     
+      .left{
+          width: 40%;
+          border-radius: 20px 0 0 20px;
+           padding: 15px;
+          background: $head-0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          h5{ 
+              padding: 20px 0;
+              line-height: 20px;
+              color: lighten($bg-3,90%)}
+          p{color:lighten($bg-2,90%);
+             
+          }
+      }
+      .right{
+           width: 60%;
+          background: #fff;
+          border-radius: 0px 20px 20px  0;
+            padding: 15px;
+          &-top{
+              display: flex;
+              justify-content: space-between;
+               span{color:$color-2}
+              &-left{color:rgba($head-0,.8);}
+              &-right{color:rgba($head-0,.8)}
+          }
+          &-middle{
+              padding: 20px 0;
+              h5{color:$head-0;}
+          }
+          &-bottom{
+                display: flex;
+              justify-content: space-between;
+              &-left{
+                  span{color:$color-2}
+                  color:$text-3
+              }
+              &-right{
+                  background: $head-0;border-radius: 40px;
+                  color:$bg-3;padding: 2px 20px;
+                  &:hover{
+                          transition: .9s ease all;
+                      background: $color-2;
+                  color:#eee; 
+                  }
+              }
+          }
+          
+          
+      }
+      
+      &:hover{
+        .left{
+          
+          background: $head-0;
+          .sub{}
+          h5{ 
+              // padding: 20px 0;
+              color: lighten(#eee,90%);
+              transition: .9s ease all;
+            }
+            
+          
+      }  
+      }
+  }//wrapper
+  
+}

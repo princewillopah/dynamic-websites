@@ -1,0 +1,54 @@
+/* body{background: #27293d;}
+html{background: #27293d;}
+*{background: #27293d;} */
+.sidebar-dark-primary {background-color: #1e1e2f!important;}
+.bg-white {background-color: #1e1e2f!important;color: #aaa !important;}
+.navbar-light .navbar-nav .nav-link {color: #aaa!important;}
+.content-wrapper {background: #27293d;}
+.text-dark {color: #3aafa9!important;}
+.breadcrumb-item a{ color: #aaa!important;}
+/* .card {box-shadow: 0 0 1px rgba(0,0,0,.125),0 1px 3px rgba(0,0,0,.2);} */
+.card-header {background-color: #1e1e2f!important; border-bottom: 1px solid #1e1e2f;}
+.card-title{color: #3aafa9!important;}
+.card-tools a.btn.btn-outline-primary {color: #aaa;background-color:transparent;border-color: #3aafa9!important;transition:all .9s ease;}
+.card-tools a.btn.btn-outline-primary:hover{color:#1e1e2f;background-color: #3aafa9; border-color: #3aafa9;transition:all .9s ease;}
+.card-body {background: #27293d;}
+.card-footer {background-color: #1e1e2f; border-top: 0 solid #1e1e2f}
+label {color:#aaa;}
+.form-group .form-control{color:#2b7a78; background:transparent;border: 1px solid #3aafa9}
+.form-control:focus {box-shadow: none;}
+.form-group input.btn.btn-primary {color: #1e1e2f;background-color:#2b7a78;border-color: #2b7a78!important;transition:all .9s ease;}
+.form-group input.btn.btn-primary:hover{color:#1e1e2f;background-color: #3aafa9; border-color: #3aafa9;transition:all .9s ease;}
+.main-footer{background-color: #1e1e2f;color:#aaa;}
+.main-footer a{color:#2b7a78;}
+.sidebar-dark-primary .nav-sidebar > .nav-item > .nav-link.active {color: #fff;background-color: #2b7a78;}
+.sidebar-dark-primary .nav-treeview > .nav-item > .nav-link.active, .sidebar-dark-primary .nav-treeview > .nav-item > .nav-link.active:hover {color: #343a40;background-color: #aaa;}
+.wrapper{background:#27293d;}
+.custom-file-label{color:#2b7a78; background:transparent;border: 1px solid #3aafa9}
+.custom-file-label::after {color: #1e1e2f;content: "CHOOSE FILE";background-color:  #2b7a78;border-left: 2px solid  #2b7a78;}
+
+.table-bordered td, .table-bordered th {border: 1px solid #aaa;}
+tr td{color:#aaa}
+tr td a{color:#aaa!important;text-decoration:underline!important;}
+tr th{color:#fff}
+.card-header a.btn.btn-outline-primary {color: #aaa;background-color:transparent;border-color: #3aafa9!important;transition:all .9s ease;}
+.card-header a.btn.btn-outline-primary:hover{color:#1e1e2f;background-color: #3aafa9; border-color: #3aafa9;transition:all .9s ease;}
+.modal-content{background: #27293d;}
+.modal-body{color:#aaa;}
+.modal-footer,.modal-header{background:#1e1e2f;}
+.modal-content .close{color:#aaa}
+.modal-header{background:#1e1e2f;color:#aaa}
+.border-bottom {border-bottom: 1px solid #2b7a78!important;}
+.main-footer{border-top: 1px solid transparent!important;margin-top:30px!important;}
+
+.bg-info{background:#1e1e2f!important;color:#aaa!important;}
+ p.small-box-footer{background: #2b7a78!important;color:#fff!important;}
+
+  .dropdown-menu a.dropdown-item.py-3{background:#1e1e2f!important;color:#aaa;padding-top: 10px !important;padding-bottom: 10px !important;}
+ .dropdown-divider{border-bottom:1px solid rgba(#2b7a78,.1);border-top: 1px solid #2b7a78}
+  .nav-header{color:#2b7a78!important;font-weight:700}
+  div.dataTables_wrapper div.dataTables_info{ color:#aaa!important}
+  --------------
+  /* header */
+  ------------
+ 

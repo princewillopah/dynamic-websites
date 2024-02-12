@@ -1,0 +1,8 @@
+@import 'colors';
+$main-color: #2d3c4d;
+
+
+
+.bttn-fill.bttn-primary{background: $color-1;color: #fff;transition: all 1s ease;font-weight: bold;}
+.bttn-fill.bttn-primary:hover{color: $color-1;transition: all 1s ease;}
+.bttn-fill.bttn-md {font-size: 1rem; padding: 12px 15px;}

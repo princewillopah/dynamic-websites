@@ -1,0 +1,2278 @@
+.heading-2 {
+  font-size: 2.7rem;
+  display: inline-block;
+  background-image: linear-gradient(to right, #000, #151c24, #1f2935, #2d3c4d, #4e6783);
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  margin-bottom: 1.1rem;
+  transition: all .5s; }
+  .heading-2:hover {
+    transform: skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.section-heading {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.emphasize {
+  color: black;
+  font-weight: bold; }
+
+.paragraph {
+  font-size: 1.1rem;
+  color: #646464;
+  line-height: 2.1rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 2rem; }
+
+.h1-underscore {
+  background-color: #f8f8f8;
+  height: 3px;
+  width: 10%;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 50px; }
+
+.bttn-fill.bttn-primary {
+  background: #0d1120;
+  color: #fff;
+  transition: all 1s ease;
+  font-weight: bold; }
+
+.bttn-fill.bttn-primary:hover {
+  color: #0d1120;
+  transition: all 1s ease; }
+
+.bttn-fill.bttn-md {
+  font-size: 1rem;
+  padding: 12px 15px; }
+
+.navbar-border-animation::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #dddbdb;
+  display: block;
+  position: relative;
+  top: 2px;
+  transition: all 700ms ease;
+  border-radius: 5%; }
+
+.navbar-border-animation:hover::after {
+  width: 100%; }
+
+.sticky {
+  padding: 0;
+  box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2) !important;
+  transition: all .5s ease !important; }
+
+.stickies {
+  padding: 0;
+  box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2) !important; }
+
+.my-logo {
+  height: 60px;
+  transition: all 1.5s ease !important; }
+
+.container-fluid {
+  padding: 0; }
+  .container-fluid .nav-top {
+    background-color: #131926;
+    width: 100%;
+    padding-right: 20px;
+    border-bottom: 1px solid rgba(178, 178, 178, 0.5); }
+    .container-fluid .nav-top .phone {
+      margin: 0 20px;
+      color: #eee; }
+    .container-fluid .nav-top .nav-social {
+      display: inline; }
+      .container-fluid .nav-top .nav-social a {
+        padding: 2px 8px; }
+      .container-fluid .nav-top .nav-social .socials {
+        color: #eee;
+        transition: all .7s ease; }
+        .container-fluid .nav-top .nav-social .socials:hover {
+          color: #aaa; }
+
+/*-------------nav---------------------------*/
+#all-navbar .navbar {
+  clear: both;
+  background: white;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 0 !important; }
+  #all-navbar .navbar .nav-link {
+    color: #0d1120;
+    font-family: 'Blinker', sans-serif;
+    text-transform: capitalize;
+    font-size: 20px; }
+    #all-navbar .navbar .nav-link:hover {
+      color: #2b7a78; }
+  #all-navbar .navbar .active a {
+    color: #2b7a78; }
+  #all-navbar .navbar a.active {
+    color: #2b7a78; }
+  #all-navbar .navbar .navbar-brand {
+    padding: 0 !important; }
+    #all-navbar .navbar .navbar-brand span {
+      font-size: 30px; }
+  #all-navbar .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    top: 80%;
+    border-radius: .01rem;
+    transition: all .8s ease; }
+  #all-navbar .navbar .give {
+    margin-left: 15px;
+    color: white;
+    background: #2b7a78;
+    border-radius: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 3px;
+    z-index: 1;
+    position: relative;
+    font-size: inherit;
+    font-family: inherit;
+    outline: none;
+    border: none;
+    overflow: hidden;
+    cursor: pointer; }
+    #all-navbar .navbar .give:hover {
+      background-color: #131926;
+      transition: background-color .9s ease; }
+    #all-navbar .navbar .give::after {
+      content: '';
+      z-index: -1;
+      background-color: #888;
+      position: absolute;
+      top: -60%;
+      bottom: -60%;
+      width: 1.25em;
+      transform: translate3d(-655%, 0, 0) rotate(35deg); }
+    #all-navbar .navbar .give:hover::after {
+      transition: transform 0.45s ease-in-out;
+      transform: translate3d(300%, 0, 0) rotate(35deg); }
+
+/*==========================================================================================*/
+/*footer*/
+/*=============================================================================================*/
+footer#footer {
+  background: #0d1120;
+  padding-top: 50px;
+  color: #eee; }
+
+footer#footer .main-footer1 .charity-logo {
+  margin-bottom: 29px; }
+  footer#footer .main-footer1 .charity-logo .logo-anchor {
+    display: inline-block;
+    text-align: center;
+    width: 100%; }
+  footer#footer .main-footer1 .charity-logo img {
+    margin: 0 auto; }
+
+/*footer#footer .main-footer .nav a{color: #dddfe1;font-size: 1.3rem; border:2px solid #dddfe1; margin-right: 10px;padding: 0.2rem 0.5rem; border-radius: 5px;}*/
+footer#footer .main-footer1 .nav a {
+  font-size: 1.3rem;
+  border: 2px solid #aaa;
+  transition: all .9s ease;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 25px;
+  padding: 0.5rem;
+  margin-right: 6px; }
+
+footer#footer .main-footer1 .nav .facebook, .instagram, .youtube, .twitter, .linkedin {
+  color: #dddfe1;
+  transition: all .7s ease; }
+
+footer#footer .main-footer1 .nav .facebook:hover {
+  color: #3b5998;
+  transition: all .9s ease;
+  border: 2px solid #2b7a78; }
+
+footer#footer .main-footer1 .nav .instagram:hover {
+  color: #3f729b;
+  transition: all .9s ease;
+  border: 2px solid #2b7a78; }
+
+footer#footer .main-footer1 .nav .youtube:hover {
+  color: #c4302b;
+  transition: all .9s ease;
+  border: 2px solid #2b7a78; }
+
+footer#footer .main-footer1 .nav .twitter:hover {
+  color: #38a1f3;
+  transition: all .9s ease;
+  border: 2px solid #2b7a78; }
+
+footer#footer .main-footer1 .nav .linkedin:hover {
+  color: #0077b5;
+  transition: all .9s ease;
+  border: 2px solid #2b7a78; }
+
+footer#footer .main-footer4 span.icon {
+  padding-right: 10px;
+  color: #2b7a78; }
+
+footer#footer .main-footer4 span.icon .fa {
+  width: 20px;
+  text-align: left; }
+
+footer#footer .main-footer4 p {
+  display: flex;
+  color: #999; }
+
+footer#footer .main-footer h5 {
+  padding-bottom: 10px;
+  color: #aaa;
+  font-weight: bold; }
+
+footer#footer .copyright-color {
+  background-color: #131926;
+  border-top: 1px solid #3e3b3d;
+  margin-top: 3rem; }
+
+footer#footer .copyright {
+  color: #999;
+  text-align: center; }
+
+footer#footer .menu, .copyright {
+  padding: 1rem; }
+
+.btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  background-color: transparent;
+  border: 1px solid #2b7a78;
+  color: #2b7a78;
+  /*z-index: 2147483647;*/
+  /*display: block;*/
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 0;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  /*-webkit-transition-duration: 500ms;*/
+  transition-duration: 500ms;
+  display: none; }
+
+.btn-back-to-top:hover {
+  background-color: #2b7a78;
+  color: #eee;
+  border: 1px solid #2b7a78; }
+
+#sermon-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/sermons/2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #sermon-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #sermon-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #sermon-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #sermon-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #sermon-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#main-sermon {
+  padding-top: 130px;
+  padding-bottom: 80px;
+  margin-top: -130px;
+  background: #eeeeee; }
+  #main-sermon-content h2 {
+    text-align: center; }
+  #main-sermon-content p {
+    text-align: center;
+    color: #7c7c7c;
+    font-style: italic; }
+  #main-sermon .info {
+    margin-top: 20px;
+    text-align: center; }
+    #main-sermon .info h4 {
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase; }
+  #main-sermon .infos {
+    color: #555;
+    font-style: italic; }
+    #main-sermon .infos div {
+      display: inline;
+      margin-right: 5px; }
+      #main-sermon .infos div span {
+        color: #2b7a78; }
+  #main-sermon .message {
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center; }
+    #main-sermon .message p {
+      color: #7c7c7c; }
+  #main-sermon .readmoreSocial {
+    display: flex !important;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+    #main-sermon .readmoreSocial .readmore {
+      line-height: 35px !important;
+      color: #959595;
+      text-decoration: none;
+      font-weight: 700; }
+      #main-sermon .readmoreSocial .readmore:hover {
+        transition: all .9s ease;
+        color: #2b7a78; }
+    #main-sermon .readmoreSocial .socials a {
+      font-size: 1.3rem;
+      background: white;
+      width: 45px;
+      height: 45px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 25px;
+      padding: 0.5rem;
+      margin-right: 6px; }
+      #main-sermon .readmoreSocial .socials a .fa {
+        color: #959595; }
+      #main-sermon .readmoreSocial .socials a:hover .fa {
+        color: #2b7a78;
+        transition: all .9s ease; }
+
+@media (max-width: 400px) {
+  #sermon-intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/sermons/2.jpg") no-repeat center center fixed;
+    height: 40vh; }
+    #sermon-intro .contents {
+      transform: translate(-45%, -30vh); }
+      #sermon-intro .contents-message h1 {
+        font-size: 24px;
+        margin-bottom: 4px; }
+      #sermon-intro .contents-message div .navs {
+        display: none; }
+  #main-sermon {
+    padding-bottom: 30px; }
+    #main-sermon-content {
+      margin-bottom: 20px !important; }
+      #main-sermon-content h2 {
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 4px; }
+      #main-sermon-content p {
+        margin-bottom: 10px;
+        font-size: 14px; }
+    #main-sermon img.offset-md-2 {
+      margin: 0;
+      padding: 0; }
+    #main-sermon .info {
+      margin-top: 15px; }
+      #main-sermon .info h4 {
+        font-size: 18px; }
+    #main-sermon .infos {
+      font-size: 14px; }
+    #main-sermon .message {
+      padding-top: 10px; }
+    #main-sermon .readmoreSocial {
+      display: block !important;
+      text-align: center; }
+      #main-sermon .readmoreSocial .readmore {
+        display: block;
+        margin-bottom: 10px; }
+        #main-sermon .readmoreSocial .readmore:hover {
+          transition: all .9s ease;
+          color: #2b7a78; }
+      #main-sermon .readmoreSocial .socials a {
+        font-size: 1rem;
+        width: 35px;
+        height: 35px;
+        line-height: 2px; }
+        #main-sermon .readmoreSocial .socials a:hover .fa {
+          color: #2b7a78;
+          transition: all .9s ease; } }
+
+#about-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/about/about/about-bg.png") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #about-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #about-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #about-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #about-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #about-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#who-we-are {
+  padding: 150px 20px 100px;
+  margin-top: -150px;
+  background: #eee; }
+  #who-we-are .head {
+    padding-bottom: 35px;
+    text-align: center; }
+    #who-we-are .head h1 {
+      font-weight: 800;
+      font-size: 35px;
+      padding-bottom: 15px; }
+    #who-we-are .head p {
+      font-weight: 300;
+      font-style: italic;
+      color: #2b7a78; }
+  #who-we-are .who-we-are p {
+    font-style: italic;
+    line-height: 25px;
+    color: #555; }
+
+#our-services {
+  padding: 80px 20px; }
+  #our-services .heads {
+    padding-bottom: 35px;
+    text-align: center; }
+    #our-services .heads h1 {
+      font-weight: 800;
+      font-size: 35px; }
+  #our-services .services {
+    text-align: center;
+    margin-bottom: 35px; }
+    #our-services .services h3 {
+      font-size: 45px;
+      color: #2b7a78;
+      font-weight: bold; }
+    #our-services .services p {
+      font-style: italic;
+      line-height: 25px;
+      color: #777;
+      margin-bottom: 4px;
+      font-weight: 300; }
+
+/*!*<!--=====================================================================================-->*!*/
+/*!*<!--                        contact Page                                                 -->*!*/
+/*!*<!--===================================================================================-->*!*/
+#contact-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/contact/bg_1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #contact-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #contact-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #contact-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #contact-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #contact-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+.contact-form-media {
+  padding: 70px 0;
+  margin-top: -100px; }
+
+.contact-form-media-content {
+  padding: 50px 40px;
+  background: #eee;
+  clip-path: polygon(100% 0px, 100% 100%, 0% 100%, 0% 0%, 37% 0%, 50% 13%, 63% 0); }
+
+.contact-form-media-content h4 {
+  font-size: 25px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #2b7a78; }
+
+.contact-form .form-control {
+  height: 52px;
+  width: 100%;
+  font-size: 12px;
+  font-style: italic;
+  margin-bottom: 10px;
+  padding: 10px 10px;
+  background-color: #ffffff;
+  transition: all 2s ease;
+  border: none; }
+
+.form-group {
+  position: relative; }
+  .form-group .form-control {
+    width: 100%;
+    height: 52px;
+    border: 1px solid #eee;
+    color: #2b7a78;
+    font-size: 12px;
+    font-style: italic;
+    padding: 15px 20px;
+    background-color: white;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15); }
+  .form-group textarea.form-control {
+    height: 200px !important; }
+  .form-group .form-control:focus {
+    outline: none;
+    border: none; }
+  .form-group .form-control::placeholder {
+    color: #495057; }
+  .form-group span {
+    position: absolute;
+    transition: transform 0.5s ease; }
+  .form-group .bottom {
+    height: 2px;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    background-color: #3aafa9; }
+  .form-group .top {
+    height: 2px;
+    left: 0;
+    right: 0;
+    transform: scaleX(0);
+    background-color: #2b7a78; }
+  .form-group .left {
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    transform: scaleY(0);
+    background-color: #2b7a78; }
+  .form-group .right {
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    transform: scaleY(0);
+    background-color: #3aafa9; }
+  .form-group .bottom {
+    bottom: 0;
+    transform-origin: bottom right; }
+  .form-group .form-control:focus ~ .bottom {
+    transform-origin: bottom left;
+    transform: scaleX(1); }
+  .form-group .right {
+    right: 0;
+    transform-origin: top right; }
+  .form-group .form-control:focus ~ .right {
+    transform-origin: bottom right;
+    transform: scaleY(1); }
+  .form-group .top {
+    top: 0;
+    transform-origin: top left; }
+  .form-group .form-control:focus ~ .top {
+    transform-origin: top right;
+    transform: scaleX(1); }
+  .form-group .left {
+    left: 0;
+    transform-origin: bottom left; }
+  .form-group .form-control:focus ~ .left {
+    transform-origin: top left;
+    transform: scaleY(1); }
+
+.bttn-fill.bttn-primary {
+  background: #2b7a78; }
+
+/*---------------- contact-media ----------------------*/
+.contact-media {
+  color: #9b9a9a;
+  line-height: 30px;
+  margin-bottom: 35px;
+  margin-left: 50px; }
+  .contact-media h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: #2b7a78; }
+
+.contact-media .socials {
+  margin-bottom: 35px; }
+
+.contact-media .socials span.icon {
+  padding-right: 10px;
+  color: #2b7a78; }
+
+.contact-media .socials span.icon .fa {
+  width: 20px;
+  text-align: left; }
+
+.contact-media .socials p {
+  display: flex;
+  color: #9b9a9a;
+  margin-bottom: 5px; }
+
+.contact-media .nav a {
+  color: #9b9a9a;
+  font-size: 1.3rem;
+  border: 2px solid #9b9a9a;
+  width: 45px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 0px;
+  padding: 0.5rem;
+  margin-right: 6px;
+  transition: all .9s ease; }
+
+.contact-media .nav a:hover {
+  color: #2b7a78;
+  border: 2px solid #2b7a78; }
+
+.map {
+  margin-bottom: 40px; }
+
+@media (max-width: 400px) {
+  #contact-intro {
+    height: 40vh; }
+    #contact-intro .contents {
+      transform: translate(-45%, -30vh); }
+      #contact-intro .contents-message h1 {
+        font-size: 24px;
+        margin-bottom: 4px; }
+      #contact-intro .contents-message div .navs {
+        display: none; }
+  .contact-form-media {
+    padding: 70px 0;
+    margin-top: -80px; }
+  .contact-form-media-content {
+    clip-path: polygon(100% 0px, 100% 100%, 0% 100%, 0% 0%, 37% 0%, 50% 3%, 63% 0); }
+  .contact-form-media-content {
+    padding: 50px 20px; }
+    .contact-form-media-content .col-md-6 h4 {
+      padding-bottom: 0px;
+      font-size: 18px;
+      margin-bottom: 12px;
+      font-weight: bold;
+      text-align: center; }
+  .form-group {
+    position: relative; }
+    .form-group .form-control {
+      height: 40px;
+      margin-bottom: 10px;
+      padding: 10px 10px; }
+    .form-group textarea.form-control {
+      height: 100px !important; }
+  .bttn-fill.bttn-md {
+    padding: 10px; }
+  .w-25 {
+    width: 100% !important; }
+  .contact-media {
+    margin: 20px 0 5px 0 !important; }
+  .contact-form-media-content h4 {
+    padding-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center; }
+  .contact-form-media-content .mb-4 {
+    margin-bottom: 15px !important; }
+  .contact-media .socials {
+    margin-bottom: 25px; }
+  .contact-media .socials span.icon {
+    padding-right: 2px; }
+  .contact-media .socials p {
+    font-size: 14px; }
+  .contact-media .nav {
+    justify-content: center; }
+  .contact-media .nav a {
+    font-size: 1rem;
+    border: 1px solid #9b9a9a;
+    width: 35px;
+    border-radius: 2px; }
+  .contact-media .nav a:hover {
+    color: #131926;
+    border: 2px solid #131926; }
+  .map {
+    margin-bottom: 40px; } }
+
+#event-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/sermons/2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #event-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #event-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #event-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #event-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #event-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#latest-event {
+  padding-bottom: 100px; }
+  #latest-event .heading {
+    text-align: center;
+    padding-bottom: 10px; }
+    #latest-event .heading h1 {
+      font-size: 35px;
+      text-transform: uppercase;
+      font-weight: bold; }
+    #latest-event .heading p {
+      color: #555;
+      font-style: italic; }
+  #latest-event .info {
+    padding-left: 20px; }
+    #latest-event .info .date-place-info {
+      display: flex; }
+      #latest-event .info .date-place-info .event-date {
+        transition: all .9s ease;
+        box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+        width: 85px;
+        height: 85px;
+        border-radius: 5px;
+        background-color: #2b7a78;
+        margin: 0 30px 30px 0; }
+        #latest-event .info .date-place-info .event-date h6 {
+          text-align: center;
+          font-weight: 600;
+          color: #eee; }
+          #latest-event .info .date-place-info .event-date h6 span {
+            display: block;
+            font-size: 36px;
+            font-weight: 700;
+            color: #eee; }
+      #latest-event .info .date-place-info .event-date-body h4 {
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 10px;
+        margin-bottom: 0; }
+        #latest-event .info .date-place-info .event-date-body h4:hover {
+          color: #2b7a78;
+          transition: all .9s ease; }
+      #latest-event .info .date-place-info .event-date-body .event-date-body-list {
+        margin-bottom: 10px; }
+        #latest-event .info .date-place-info .event-date-body .event-date-body-list p {
+          color: #959595;
+          margin-bottom: 5px;
+          font-size: 14px;
+          line-height: 1.8; }
+          #latest-event .info .date-place-info .event-date-body .event-date-body-list p .fa {
+            color: #2b7a78; }
+          #latest-event .info .date-place-info .event-date-body .event-date-body-list p .name {
+            color: #636363; }
+    #latest-event .info .message p {
+      font-family: 'Assistant', sans-serif;
+      font-size: 16px;
+      line-height: 1.8;
+      font-weight: 400;
+      color: #7c7c7c;
+      text-shadow: rgba(38, 3, 3, 0) 0 0 1px; }
+    #latest-event .info .counter {
+      margin-top: 30px; }
+      #latest-event .info .counter .event_timer {
+        list-style: none;
+        margin-bottom: 0;
+        padding: 0; }
+        #latest-event .info .counter .event_timer li {
+          display: inline-block;
+          height: 80px;
+          width: 100px;
+          text-align: center;
+          border-right: solid 1px #e0e0e0; }
+          #latest-event .info .counter .event_timer li .event_num {
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 0.75;
+            color: #181818;
+            margin-top: 8px; }
+          #latest-event .info .counter .event_timer li .event_ss {
+            font-size: 16px;
+            line-height: 0.75;
+            color: #7c7c7c;
+            text-transform: uppercase;
+            margin-top: 19px; }
+          #latest-event .info .counter .event_timer li:first-child {
+            border-left: solid 1px #e0e0e0; }
+
+#main-events {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  background: #eeeeee; }
+  #main-events h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 60px; }
+  #main-events .event {
+    margin-bottom: 30px; }
+    #main-events .event .events-text h4 {
+      font-weight: bolder;
+      font-size: 24px; }
+    #main-events .event .event-meta .fa {
+      color: #2b7a78; }
+    #main-events .event .event-meta a {
+      font-size: 14px;
+      color: #959595;
+      font-style: italic;
+      margin-right: 15px;
+      font-weight: 400;
+      text-decoration: none; }
+      #main-events .event .event-meta a:hover {
+        transition: all .9s ease;
+        color: #2b7a78; }
+    #main-events .event p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #636363; }
+    #main-events .event a {
+      color: #959595;
+      background-color: transparent;
+      border: transparent;
+      font-weight: bold;
+      padding: 0;
+      text-decoration: none; }
+      #main-events .event a .fa {
+        transform: rotate(0deg);
+        transition: all .9s ease; }
+      #main-events .event a:hover {
+        color: #2b7a78;
+        transition: all .9s ease; }
+        #main-events .event a:hover .fa {
+          transform: rotate(180deg);
+          margin-left: 5px; }
+    #main-events .event .bn {
+      text-align: center;
+      margin: auto 0; }
+      #main-events .event .bn a {
+        box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15); }
+      #main-events .event .bn .btn {
+        padding: 10px 30px;
+        color: #2b7a78; }
+      #main-events .event .bn a:hover {
+        transition: all .9s ease;
+        color: #ffffff;
+        background-color: #2b7a78;
+        border-radius: 3px;
+        padding: 10px 30px;
+        font-weight: 700; }
+  #main-events .paginate {
+    margin-top: 50px; }
+    #main-events .paginate .pagination .page-item .page-link {
+      padding: 15px;
+      margin-left: 7px;
+      background: white;
+      color: #2b7a78;
+      font-weight: bold; }
+      #main-events .paginate .pagination .page-item .page-link:hover {
+        background: #2b7a78;
+        color: white;
+        border-color: #2b7a78; }
+    #main-events .paginate .pagination .page-item.active .page-link {
+      background: #2b7a78;
+      color: white;
+      border-color: #2b7a78; }
+
+@media (max-width: 400px) {
+  #event-intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/sermons/2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40vh; }
+    #event-intro .contents {
+      transform: translate(-45%, -30vh); }
+      #event-intro .contents-message h1 {
+        font-size: 24px;
+        margin-bottom: 4px; }
+      #event-intro .contents-message div .navs {
+        display: none; }
+  #latest-event {
+    padding-bottom: 50px; }
+    #latest-event .heading {
+      text-align: center;
+      padding-bottom: 10px; }
+      #latest-event .heading h1 {
+        font-size: 25px;
+        margin-bottom: 4px; }
+      #latest-event .heading p {
+        font-size: 14px;
+        margin-bottom: 10px; }
+    #latest-event .info {
+      padding-left: 0;
+      padding-top: 15px; }
+      #latest-event .info .date-place-info {
+        display: block; }
+        #latest-event .info .date-place-info .event-date {
+          width: 55px;
+          height: 45px;
+          margin: 0 10px 10px 0;
+          position: absolute;
+          border-radius: 0;
+          top: -45px; }
+          #latest-event .info .date-place-info .event-date h6 {
+            font-size: 14px; }
+            #latest-event .info .date-place-info .event-date h6 span {
+              display: block;
+              font-size: inherit;
+              font-weight: 700;
+              color: #eee; }
+        #latest-event .info .date-place-info .event-date-body h4 {
+          font-size: 16px;
+          font-weight: bold;
+          padding-bottom: 5px; }
+        #latest-event .info .date-place-info .event-date-body .event-date-body-list {
+          margin-bottom: 10px; }
+          #latest-event .info .date-place-info .event-date-body .event-date-body-list p {
+            margin-bottom: 0; }
+      #latest-event .info .message p {
+        font-size: 14px;
+        line-height: 1.4; }
+      #latest-event .info .counter {
+        margin-top: 20px; }
+        #latest-event .info .counter .event_timer li {
+          height: 40px;
+          width: 50px;
+          border-right: solid 1px #e0e0e0; }
+          #latest-event .info .counter .event_timer li .event_num {
+            font-size: 14px;
+            font-weight: bold; }
+          #latest-event .info .counter .event_timer li .event_ss {
+            font-size: 13px;
+            margin-top: 10px; }
+          #latest-event .info .counter .event_timer li:first-child {
+            border-left: solid 1px #e0e0e0; }
+  #main-events {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    #main-events h1 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    #main-events .event {
+      margin-bottom: 30px; }
+      #main-events .event .events-text h4 {
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 15px; }
+      #main-events .event .event-meta a {
+        font-size: 12px;
+        margin-right: 5px; }
+      #main-events .event .bn .btn {
+        font-size: 14px; }
+    #main-events .paginate {
+      margin-top: 50px; }
+      #main-events .paginate .pagination .page-item .page-link {
+        padding: 10px;
+        margin-left: 5px; } }
+
+.single-event .intro {
+  margin: 20px 20px 20px 0; }
+  .single-event .intro span {
+    color: #959595; }
+    .single-event .intro span a {
+      color: #000; }
+
+.single-event .title {
+  margin: 20px 20px 30px 0;
+  font-weight: 600;
+  font-size: 34px; }
+
+.single-event .info {
+  padding: 20px 20px 20px 0; }
+  .single-event .info .event-meta a {
+    color: #959595;
+    margin-right: 20px;
+    text-transform: none; }
+    .single-event .info .event-meta a i {
+      color: #3aafa9; }
+  .single-event .info .message {
+    margin-top: 30px; }
+    .single-event .info .message p {
+      color: #636363;
+      width: 88%; }
+
+.mycourasel {
+  position: relative !important; }
+  .mycourasel .carousel-item .img-container {
+    position: relative !important; }
+    .mycourasel .carousel-item .img-container img {
+      animation: animate 50s ease;
+      -o-animation: animate 50s ease;
+      -webkit-animation: animate 50s ease; }
+
+@keyframes animate {
+  0% {
+    -webkit-transform-origin: bottom right;
+    -moz-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    -o-transform-origin: bottom right;
+    transform-origin: bottom right;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1); }
+  100% {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    transform: scale(1.3); } }
+  .mycourasel .carousel-item .carousel-caption {
+    width: 90%;
+    position: absolute; }
+    .mycourasel .carousel-item .carousel-caption-1 {
+      left: 5%;
+      transform: translateY(-50%);
+      bottom: 0;
+      top: 60%; }
+      .mycourasel .carousel-item .carousel-caption-1 .col-md-12 h1 {
+        font-size: 70px;
+        font-family: 'Blinker', sans-serif;
+        text-transform: capitalize;
+        font-weight: bold; }
+      .mycourasel .carousel-item .carousel-caption-1 .col-md-12 p {
+        font-size: 35px;
+        font-family: 'Blinker', serif;
+        line-height: 30px;
+        color: #aaa;
+        font-weight: 300;
+        font-style: italic; }
+    .mycourasel .carousel-item .carousel-caption-3 {
+      left: 50%;
+      transform: translateY(-50%);
+      bottom: 0;
+      top: 70%; }
+      .mycourasel .carousel-item .carousel-caption-3 .col-md-12 .caption {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 40%;
+        height: 100%;
+        padding: 10px; }
+        .mycourasel .carousel-item .carousel-caption-3 .col-md-12 .caption .caption-inner {
+          border: 1px #2b7a78 solid;
+          padding: 5px 5px;
+          border-radius: 5px; }
+        .mycourasel .carousel-item .carousel-caption-3 .col-md-12 .caption h3 {
+          font-size: 30px;
+          font-family: 'Roboto', sans-serif;
+          text-transform: capitalize;
+          font-weight: bold; }
+        .mycourasel .carousel-item .carousel-caption-3 .col-md-12 .caption p {
+          font-size: 20px;
+          font-family: 'Lora', serif;
+          line-height: 30px;
+          color: #aaa;
+          text-transform: uppercase; }
+    .mycourasel .carousel-item .carousel-caption-4 {
+      left: 50%;
+      transform: translateY(-50%);
+      bottom: 0;
+      top: 40%; }
+      .mycourasel .carousel-item .carousel-caption-4 .col-md-12 .caption {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 40%;
+        height: 100%;
+        padding: 10px; }
+        .mycourasel .carousel-item .carousel-caption-4 .col-md-12 .caption .caption-inner {
+          border: 1px #2b7a78 solid;
+          padding: 5px 5px;
+          border-radius: 5px; }
+        .mycourasel .carousel-item .carousel-caption-4 .col-md-12 .caption h3 {
+          font-size: 30px;
+          font-family: 'Roboto', sans-serif;
+          text-transform: capitalize;
+          font-weight: bold; }
+        .mycourasel .carousel-item .carousel-caption-4 .col-md-12 .caption p {
+          font-size: 20px;
+          font-family: 'Lora', serif;
+          line-height: 30px;
+          color: #aaa;
+          text-transform: uppercase; }
+    .mycourasel .carousel-item .carousel-caption-5 {
+      left: 30%;
+      transform: translateY(-50%);
+      bottom: 0;
+      top: 50%;
+      z-index: 10; }
+      .mycourasel .carousel-item .carousel-caption-5 .col-md-12 .caption {
+        color: white;
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 40%;
+        height: 100%;
+        padding: 10px; }
+        .mycourasel .carousel-item .carousel-caption-5 .col-md-12 .caption .caption-inner {
+          border: 1px #2b7a78 solid;
+          padding: 5px 5px;
+          border-radius: 5px; }
+        .mycourasel .carousel-item .carousel-caption-5 .col-md-12 .caption h3 {
+          font-size: 30px;
+          font-family: 'Roboto', sans-serif;
+          text-transform: capitalize;
+          font-weight: bold; }
+        .mycourasel .carousel-item .carousel-caption-5 .col-md-12 .caption p {
+          font-size: 20px;
+          font-family: 'Lora', serif;
+          line-height: 30px;
+          color: #aaa;
+          text-transform: uppercase; }
+  .mycourasel .carousel-control-prev, .mycourasel .carousel-control-next {
+    width: 5% !important; }
+  .mycourasel .carousel-control-prev .fa-arrow-left, .mycourasel .carousel-control-next .fa-arrow-right {
+    background-color: white;
+    border: 2px solid white;
+    padding: 10px 10px;
+    border-radius: 50%;
+    color: #131926; }
+  .mycourasel .fa-arrow-left:hover, .mycourasel .fa-arrow-right:hover {
+    color: #aaa;
+    background-color: rgba(19, 25, 38, 0.9);
+    border: 2px solid #131926;
+    transition: all .7s ease; }
+  .mycourasel .courasel-overlay {
+    position: absolute !important;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8); }
+
+.welcome {
+  padding: 4rem;
+  background: #f8f9fa; }
+  .welcome .welcome-msg {
+    padding: 40px; }
+    .welcome .welcome-msg .light {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: #6c757d; }
+    .welcome .welcome-msg h2 {
+      font-weight: bold;
+      font-size: 35px;
+      margin-bottom: 3px; }
+    .welcome .welcome-msg .pst {
+      font-size: 14px;
+      color: #6c757d;
+      margin-bottom: 8px; }
+    .welcome .welcome-msg .topic {
+      color: #242424;
+      margin-bottom: 8px; }
+    .welcome .welcome-msg p.msg {
+      color: #555;
+      line-height: 28px;
+      font-weight: 300; }
+
+.sunday-message {
+  padding: 30px;
+  background-image: linear-gradient(to right, #0d1120, #0d1120, #06080f, #06080f, #06080f, #0d1120, #0d1120); }
+  .sunday-message .subscription-text h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center; }
+
+.become-a-member {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/home/6.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*display: table;*/ }
+  .become-a-member-cover {
+    max-width: 70%;
+    max-width: 70%;
+    text-align: center;
+    margin: auto; }
+    .become-a-member-cover h6 {
+      color: #2b7a78;
+      margin-bottom: 1.8rem;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 18px; }
+    .become-a-member-cover h2 {
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 42px;
+      margin-bottom: 50px; }
+    .become-a-member-cover .btn-primary:link, .become-a-member-cover .btn-primary:visited {
+      color: white;
+      background-image: linear-gradient(120deg, #2b7a78 0%, #2b7a78 50%, white 50%);
+      background-size: 220%;
+      border: none;
+      transition: all .2s ease;
+      border: 2px solid #2b7a78; }
+    .become-a-member-cover .btn-primary:hover, .become-a-member-cover .btn-primary:active {
+      background-position: 100%;
+      color: #2b7a78;
+      border: 2px solid #eee; }
+
+.latest-sermons {
+  padding: 4rem; }
+  .latest-sermons-content {
+    text-align: center;
+    max-width: 730px;
+    margin: 0 auto 50px; }
+  .latest-sermons-card .card {
+    border: none; }
+    .latest-sermons-card .card .latest-sermons-img-date {
+      position: relative; }
+      .latest-sermons-card .card .latest-sermons-img-date .card-img-top {
+        border-radius: 5px; }
+      .latest-sermons-card .card .latest-sermons-img-date .latest-sermons-date {
+        transition: all .9s ease;
+        box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+        position: absolute;
+        left: 20px;
+        bottom: -15px;
+        background-color: #ffffff; }
+        .latest-sermons-card .card .latest-sermons-img-date .latest-sermons-date h6 {
+          text-align: center;
+          font-weight: 600;
+          color: #636363; }
+          .latest-sermons-card .card .latest-sermons-img-date .latest-sermons-date h6 span {
+            display: block;
+            font-size: 36px;
+            font-weight: 700;
+            color: #1f1f2c; }
+    .latest-sermons-card .card .card-body {
+      padding: 1.25rem 0; }
+      .latest-sermons-card .card .card-body .card-title {
+        font-size: 24px;
+        font-weight: 600;
+        border-bottom: 1px solid #e5e5e5;
+        padding-bottom: 20px;
+        margin-bottom: 0; }
+        .latest-sermons-card .card .card-body .card-title:hover {
+          color: #2b7a78;
+          transition: all .9s ease; }
+      .latest-sermons-card .card .card-body .latest-sermons-card-detail {
+        margin-top: 20px;
+        margin-bottom: 20px; }
+        .latest-sermons-card .card .card-body .latest-sermons-card-detail p {
+          color: #959595;
+          margin-bottom: 5px;
+          font-size: 14px;
+          line-height: 1.8; }
+          .latest-sermons-card .card .card-body .latest-sermons-card-detail p .fa {
+            color: #2b7a78; }
+          .latest-sermons-card .card .card-body .latest-sermons-card-detail p .name {
+            color: #636363; }
+      .latest-sermons-card .card .card-body .entry-action {
+        padding: 13px 0;
+        border-width: 1px 0;
+        border-style: solid;
+        border-color: #e0e0e0; }
+        .latest-sermons-card .card .card-body .entry-action a {
+          font-size: 20px;
+          color: #333;
+          transition: all .8s ease; }
+        .latest-sermons-card .card .card-body .entry-action a:not(:last-child) {
+          margin-right: 20px; }
+        .latest-sermons-card .card .card-body .entry-action a:hover {
+          color: #2b7a78;
+          text-decoration: none; }
+
+.latest-sermons-card:hover .card .latest-sermons-img-date .latest-sermons-date h6 {
+  color: #fff; }
+
+.latest-sermons-card:hover .card .latest-sermons-img-date .latest-sermons-date span {
+  color: #fff; }
+
+.latest-sermons-card:hover .card .latest-sermons-img-date .latest-sermons-date {
+  bottom: 20px;
+  background-color: teal; }
+
+.subscription {
+  padding: 40px;
+  background: #2b7a78; }
+  .subscription .subscription-text h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px; }
+  .subscription .subscription-text h6 {
+    font-weight: 400;
+    margin-bottom: 0;
+    color: #ffffff; }
+  .subscription .subscription-form {
+    position: relative;
+    z-index: 2;
+    text-align: right; }
+    .subscription .subscription-form input {
+      width: 100%;
+      height: 55px;
+      background-color: #ffffff;
+      border: none;
+      border-radius: 2px;
+      padding: 0 30px;
+      color: #636363;
+      font-size: 14px; }
+    .subscription .subscription-form button {
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      z-index: 10; }
+
+.crose-btn {
+  -webkit-transition-duration: 500ms;
+  transition-duration: 500ms;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  min-width: 150px;
+  height: 46px;
+  color: #ffffff;
+  background-color: #3aafa9;
+  border-radius: 3px;
+  padding: 0 30px;
+  font-size: 14px;
+  line-height: 46px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .9s ease; }
+  .crose-btn:hover {
+    background-color: #2b7a78;
+    transition: all .9s ease; }
+
+.events {
+  padding: 0;
+  background: #eee; }
+  .events .events-containers {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../img/home/6.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    /*display: table;*/ }
+    .events .events-containers .events-banner {
+      margin: auto; }
+      .events .events-containers .events-banner h6 {
+        color: #2b7a78;
+        margin-bottom: 10px;
+        font-size: 16px; }
+      .events .events-containers .events-banner h2 {
+        color: #ffffff;
+        font-weight: 600;
+        font-size: 36px;
+        margin-bottom: 10px; }
+  .events div.slide a.carousel-control-next {
+    top: -25%;
+    bottom: 0;
+    width: 5%;
+    height: 5%; }
+    .events div.slide a.carousel-control-next .fa {
+      font-size: 50px;
+      color: #2b7a78; }
+  .events div.slide a.carousel-control-prev {
+    top: -25%;
+    left: 90%;
+    width: 5%;
+    height: 5%; }
+    .events div.slide a.carousel-control-prev .fa {
+      font-size: 50px;
+      color: #2b7a78; }
+  .events .event {
+    margin-bottom: 30px; }
+    .events .event .events-text h4 {
+      font-weight: bolder;
+      font-size: 24px; }
+    .events .event .event-meta .fa {
+      color: #2b7a78; }
+    .events .event .event-meta a {
+      font-size: 14px;
+      color: #959595;
+      font-style: italic;
+      margin-right: 15px;
+      font-weight: 400;
+      text-decoration: none; }
+      .events .event .event-meta a:hover {
+        transition: all .9s ease;
+        color: #2b7a78; }
+    .events .event p {
+      margin-top: 10px;
+      font-size: 14px;
+      color: #636363; }
+    .events .event a {
+      color: #959595;
+      background-color: transparent;
+      border: transparent;
+      font-weight: bold;
+      padding: 0;
+      text-decoration: none; }
+      .events .event a .fa {
+        transform: rotate(0deg);
+        transition: all .9s ease; }
+      .events .event a:hover {
+        color: #2b7a78;
+        transition: all .9s ease; }
+        .events .event a:hover .fa {
+          transform: rotate(180deg);
+          margin-left: 5px; }
+    .events .event .bn {
+      text-align: center;
+      margin: auto 0; }
+      .events .event .bn a {
+        box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15); }
+      .events .event .bn .btn {
+        padding: 10px 30px;
+        color: #2b7a78; }
+      .events .event .bn a:hover {
+        transition: all .9s ease;
+        color: #ffffff;
+        background-color: teal;
+        border-radius: 3px;
+        padding: 10px 30px;
+        font-weight: 700; }
+
+@media (max-width: 400px) {
+  .header {
+    height: 40vh; }
+    .header #navbar .navbar {
+      clear: both;
+      background: rgba(0, 0, 0, 0.6);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+      padding: 0 !important; }
+      .header #navbar .navbar .nav-link {
+        padding-left: 20px;
+        color: #eee;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-family: 'Poppins', sans-serif; }
+        .header #navbar .navbar .nav-link :hover {
+          color: #c92f2f; }
+      .header #navbar .navbar .navbar-brand {
+        margin-left: 10px;
+        padding: 0 !important; }
+        .header #navbar .navbar .navbar-brand span {
+          font-size: 30px; }
+  .header #navbar .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    top: 80%;
+    border-radius: .01rem;
+    transition: all 1.5s ease;
+    background: transparent;
+    border: 1px solid #eee; }
+  .header #navbar .navbar .dropdown:hover .dropdown-menu .dropdown-item {
+    color: #eee;
+    font-weight: 600; }
+  .header #navbar .navbar .dropdown:hover .dropdown-menu .dropdown-item:hover {
+    color: #c92f2f; }
+  .header #navbar .navbar .give {
+    margin-left: 15px;
+    color: white;
+    background: #c92f2f;
+    border-radius: 3px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 3px; }
+  .header #navbar .navbar .give:hover {
+    transition: all .7s ease;
+    background: #5c2323;
+    border-color: #5c2323; }
+  .header .background-wrap {
+    position: relative;
+    overflow: hidden;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0; }
+  .header .background-wrap #bgvid {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    top: 0;
+    left: 0; }
+  .header .hero-message h1 {
+    font-size: 20px; }
+  .header .hero-message p {
+    font-size: 14px; }
+  .sunday-message {
+    padding: 10px 5px;
+    background-image: linear-gradient(to right, #120606, #120606, black, black, black, #120606, #120606); }
+  .sunday-message .subscription-text h3 {
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center; }
+  .welcome {
+    padding: 1rem 0px; }
+  .welcome .welcome-content {
+    margin-bottom: 10px; }
+  .welcome .welcome-content h2.section-heading {
+    font-size: 18px; }
+  .welcome .welcome-content .paragraph {
+    font-size: 15px;
+    line-height: 1.5rem; }
+  .welcome-card .card .card-body .card-title {
+    font-size: 1.2rem; }
+  .welcome-card .card .card-body .card-text {
+    font-size: 15px;
+    margin-bottom: 4px; }
+  .welcome-card .card .welcome-card-btn {
+    color: #959595;
+    background-color: transparent;
+    border: transparent;
+    font-weight: bold;
+    padding: 0; }
+  .welcome-card .card .welcome-card-btn .fa {
+    transform: rotate(0deg);
+    transition: all .9s ease; }
+  .welcome-card .card .welcome-card-btn:hover {
+    color: #c92f2f;
+    transition: all .9s ease; }
+  .welcome-card .card .welcome-card-btn:hover .fa {
+    transform: rotate(180deg);
+    margin-left: 5px; }
+  .become-a-member {
+    height: 40vh; }
+  .become-a-member-cover {
+    max-width: 100%; }
+  .become-a-member-cover h6 {
+    margin-bottom: .8rem;
+    font-size: 16px; }
+  .become-a-member-cover h2 {
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .become-a-member-cover .btn {
+    padding: 0.3rem 0.7rem;
+    font-size: .8rem; }
+  .latest-sermons {
+    padding: 30px 0px; }
+  .latest-sermons-content {
+    margin: 0 auto 10px; }
+  .latest-sermons-content h2 {
+    font-size: 18px; }
+  .latest-sermons-content p {
+    font-size: 15px;
+    line-height: 1.5rem; }
+  .latest-sermons-card .card .latest-sermons-img-date .latest-sermons-date {
+    width: 60px;
+    height: 60px; }
+  .latest-sermons-card .card .latest-sermons-img-date .latest-sermons-date h6 span {
+    font-size: 20px; }
+  .latest-sermons-card .card .card-body .card-title {
+    font-size: 1.2rem;
+    padding-bottom: 10px; }
+  .latest-sermons-card .card .card-body .latest-sermons-card-detail {
+    margin-top: 12px;
+    margin-bottom: 12px; }
+  .latest-sermons-card .card .card-body .entry-action {
+    padding: 8px 0; }
+  .events .events-containers {
+    height: 20vh;
+    /*display: table;*/ }
+  .events .events-containers .events-banner {
+    margin: auto; }
+  .events .events-containers .events-banner h6 {
+    font-size: 14px; }
+  .events .events-containers .events-banner h2 {
+    font-size: 20px; }
+  .events div.slide a.carousel-control-next {
+    top: -12%;
+    left: 95%; }
+  .events div.slide a.carousel-control-prev {
+    top: -12%;
+    left: 85%; }
+  .events .event {
+    margin-bottom: 20px; }
+  .events .event .events-text h4 {
+    font-size: 1rem;
+    margin-top: 0.5rem; }
+  .events .event p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #636363; }
+  .events .event a {
+    color: #959595;
+    background-color: transparent;
+    border: transparent;
+    font-weight: bold;
+    padding: 0;
+    text-decoration: none; }
+  .events .event a .fa {
+    transform: rotate(0deg);
+    transition: all .9s ease; }
+  .events .event a:hover {
+    color: #c92f2f;
+    transition: all .9s ease; }
+  .events .event a:hover .fa {
+    transform: rotate(180deg);
+    margin-left: 5px; }
+  .events .event .bn {
+    text-align: center;
+    margin: auto 0; }
+  .events .event .bn a {
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.15); }
+  .events .event .bn .btn {
+    padding: 10px 30px;
+    color: #c92f2f; }
+  .events .event .bn a:hover {
+    transition: all .9s ease;
+    color: #ffffff;
+    background-color: #c92f2f;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-weight: 700; }
+  .subscription {
+    padding: 1rem 0; }
+  .subscription .subscription-text h3 {
+    font-size: 18px; }
+  .subscription .subscription-text h6 {
+    font-size: 13px;
+    margin-bottom: 8px; }
+  .subscription .subscription-form input {
+    height: 45px;
+    padding: 0 10px; }
+  .crose-btn {
+    min-width: 0px;
+    height: 35px;
+    padding: 0 20px;
+    line-height: 35px; }
+  footer#footer {
+    padding-top: 30px; }
+  footer#footer .main-footer h5 {
+    padding-bottom: 10px;
+    color: white; }
+  footer#footer .main-footer1 .charity-logo a {
+    display: block;
+    text-align: center;
+    width: 100%; }
+  footer#footer .main-footer1 .charity-logo a img {
+    width: 50%; }
+  footer#footer .main-footer1 p {
+    font-size: 14px;
+    margin-top: 20px !important;
+    line-height: 25px; }
+  footer#footer .main-footer1 .nav {
+    margin-top: 20px; }
+  footer#footer .main-footer2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px; }
+  footer#footer .main-footer3 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px; }
+  footer#footer .main-footer3 .nav-link {
+    padding: 0; }
+  footer#footer .main-footer3 .nav-item {
+    padding-bottom: 12px; }
+  footer#footer .main-footer3 .nav-item .nav-link {
+    color: #abafb3; }
+  footer#footer .main-footer3 .nav-item .latest-news-date {
+    font-size: 13px;
+    color: #4CBFFF; }
+  footer#footer .main-footer4 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 14px; }
+  footer#footer .main-footer4 p {
+    display: block; }
+  footer#footer .copyright-color {
+    background-color: #150707;
+    margin-top: 1rem; }
+  footer#footer .copyright {
+    padding: .5rem;
+    font-size: 14px; }
+  footer#footer .menu, footer#footer .copyright {
+    padding: 1rem; } }
+
+#leadership-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/about/interior_leadership.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #leadership-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #leadership-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #leadership-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #leadership-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #leadership-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#leadership {
+  padding-bottom: 100px; }
+  #leadership .leadership-info {
+    padding-bottom: 10px; }
+    #leadership .leadership-info .leadership-info-head {
+      padding-bottom: 15px; }
+      #leadership .leadership-info .leadership-info-head h3 {
+        font-size: 35px;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 0; }
+      #leadership .leadership-info .leadership-info-head span {
+        font-size: 14px;
+        color: #949494; }
+    #leadership .leadership-info .leadership-info-msg p {
+      color: #555;
+      line-height: 28px;
+      font-weight: 400; }
+    #leadership .leadership-info a.btn.bttn-stretch.bttn-md.bttn-primary {
+      color: #0d1120 !important;
+      font-weight: bold;
+      padding: 5px 0;
+      margin-top: 15px; }
+  #leadership .other-msg p {
+    color: #474747;
+    line-height: 28px;
+    font-weight: 400; }
+  #leadership .other-msg h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-top: 20px; }
+
+#leadership-main {
+  padding: 100px;
+  background: #eee; }
+  #leadership-main a:hover {
+    text-decoration: none; }
+  #leadership-main .leadership-main-info {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 1px 1px rgba(33, 54, 61, 0.15);
+    border-radius: 5px;
+    transition: all .9s ease; }
+    #leadership-main .leadership-main-info .pastors-text {
+      text-align: center; }
+      #leadership-main .leadership-main-info .pastors-text .pics img {
+        display: block;
+        margin: auto;
+        border-radius: 50%; }
+      #leadership-main .leadership-main-info .pastors-text .name-title {
+        padding: 20px; }
+        #leadership-main .leadership-main-info .pastors-text .name-title h2 {
+          font-size: 20px;
+          font-weight: 700;
+          color: #2b7a78;
+          line-height: 20px; }
+        #leadership-main .leadership-main-info .pastors-text .name-title span {
+          color: #999;
+          font-style: italic;
+          font-weight: 400;
+          font-size: 14px; }
+      #leadership-main .leadership-main-info .pastors-text hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 50%;
+        height: 1px;
+        border-radius: 50%; }
+    #leadership-main .leadership-main-info .socials {
+      margin-top: 10px; }
+      #leadership-main .leadership-main-info .socials .nav-link {
+        background: #999;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin: 0 5px;
+        line-height: 30px;
+        transition: all .9s ease; }
+        #leadership-main .leadership-main-info .socials .nav-link .fa {
+          color: white; }
+        #leadership-main .leadership-main-info .socials .nav-link:hover {
+          transition: all .9s ease;
+          background: #2b7a78; }
+    #leadership-main .leadership-main-info:hover {
+      transition: all .9s ease;
+      box-shadow: 1px 14px 43px rgba(33, 54, 61, 0.15);
+      transform: translateY(-5px); }
+      #leadership-main .leadership-main-info:hover .pastors-text hr {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        width: 100%;
+        height: 1px;
+        background: #aaa;
+        border-radius: 50%;
+        transition: all .9s ease; }
+
+@media (max-width: 400px) {
+  #event-intro {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/sermons/2.jpg") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 40vh; }
+    #event-intro .contents {
+      transform: translate(-45%, -30vh); }
+      #event-intro .contents-message h1 {
+        font-size: 24px;
+        margin-bottom: 4px; }
+      #event-intro .contents-message div .navs {
+        display: none; }
+  #latest-event {
+    padding-bottom: 50px; }
+    #latest-event .heading {
+      text-align: center;
+      padding-bottom: 10px; }
+      #latest-event .heading h1 {
+        font-size: 25px;
+        margin-bottom: 4px; }
+      #latest-event .heading p {
+        font-size: 14px;
+        margin-bottom: 10px; }
+    #latest-event .info {
+      padding-left: 0;
+      padding-top: 15px; }
+      #latest-event .info .date-place-info {
+        display: block; }
+        #latest-event .info .date-place-info .event-date {
+          width: 55px;
+          height: 45px;
+          margin: 0 10px 10px 0;
+          position: absolute;
+          border-radius: 0;
+          top: -45px; }
+          #latest-event .info .date-place-info .event-date h6 {
+            font-size: 14px; }
+            #latest-event .info .date-place-info .event-date h6 span {
+              display: block;
+              font-size: inherit;
+              font-weight: 700;
+              color: #eee; }
+        #latest-event .info .date-place-info .event-date-body h4 {
+          font-size: 16px;
+          font-weight: bold;
+          padding-bottom: 5px; }
+        #latest-event .info .date-place-info .event-date-body .event-date-body-list {
+          margin-bottom: 10px; }
+          #latest-event .info .date-place-info .event-date-body .event-date-body-list p {
+            margin-bottom: 0; }
+      #latest-event .info .message p {
+        font-size: 14px;
+        line-height: 1.4; }
+      #latest-event .info .counter {
+        margin-top: 20px; }
+        #latest-event .info .counter .event_timer li {
+          height: 40px;
+          width: 50px;
+          border-right: solid 1px #e0e0e0; }
+          #latest-event .info .counter .event_timer li .event_num {
+            font-size: 14px;
+            font-weight: bold; }
+          #latest-event .info .counter .event_timer li .event_ss {
+            font-size: 13px;
+            margin-top: 10px; }
+          #latest-event .info .counter .event_timer li:first-child {
+            border-left: solid 1px #e0e0e0; }
+  #main-events {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    #main-events h1 {
+      font-size: 25px;
+      margin-bottom: 30px; }
+    #main-events .event {
+      margin-bottom: 30px; }
+      #main-events .event .events-text h4 {
+        font-weight: bold;
+        font-size: 16px;
+        margin-top: 15px; }
+      #main-events .event .event-meta a {
+        font-size: 12px;
+        margin-right: 5px; }
+      #main-events .event .bn .btn {
+        font-size: 14px; }
+    #main-events .paginate {
+      margin-top: 50px; }
+      #main-events .paginate .pagination .page-item .page-link {
+        padding: 10px;
+        margin-left: 5px; } }
+
+#men-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/ministry/men/bg-7.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #men-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #men-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #men-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #men-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #men-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#ministry-main {
+  background: #f8f9fa;
+  margin-top: -150px;
+  padding-top: 150px;
+  padding-bottom: 100px; }
+  #ministry-main .menu {
+    position: absolute;
+    top: -25%;
+    left: 0;
+    background: white;
+    padding: 20px 0px 20px 0px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+    transition: all .9s  ease; }
+    #ministry-main .menu:hover {
+      transition: all .9s  ease-out;
+      box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+      transform: translateY(-5px); }
+    #ministry-main .menu .nav-link {
+      color: #999;
+      padding: 7px 80px 7px 20px;
+      transition: all .9s  ease-out; }
+      #ministry-main .menu .nav-link:hover {
+        background: #2b7a78;
+        color: #eee;
+        transition: all .9s  ease-out; }
+    #ministry-main .menu .active {
+      color: #2b7a78;
+      font-weight: 700; }
+  #ministry-main .main-pic {
+    float: left;
+    padding: 0 15px 15px 0; }
+  #ministry-main .main-writeup h3 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #2b7a78; }
+  #ministry-main .main-writeup p {
+    color: #555;
+    line-height: 27px; }
+
+#ministry-teacher {
+  padding: 100px 20px;
+  background: #0d1120; }
+  #ministry-teacher h1 {
+    color: #2b7a78;
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+    font-weight: bold; }
+  #ministry-teacher .card {
+    background: transparent;
+    border: none;
+    text-align: center;
+    padding: 20px;
+    transition: all .9s ease-in-out; }
+    #ministry-teacher .card .card-img-top {
+      display: block;
+      margin: auto;
+      border-radius: 50%; }
+    #ministry-teacher .card .card-body {
+      color: white; }
+      #ministry-teacher .card .card-body .card-title {
+        font-weight: 700;
+        margin-bottom: 8px;
+        transition: all .9s ease-in-out; }
+      #ministry-teacher .card .card-body span {
+        font-size: 14px;
+        color: rgba(225, 225, 225, 0.6);
+        font-style: italic;
+        padding-bottom: 10px; }
+      #ministry-teacher .card .card-body p {
+        margin-top: 10px;
+        color: rgba(225, 225, 225, 0.8); }
+    #ministry-teacher .card:hover {
+      box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 0 8px 0 rgba(0, 0, 0, 0.12);
+      transition: all .9s ease-in-out; }
+      #ministry-teacher .card:hover .card-title {
+        color: #2b7a78;
+        transition: all .9s ease-in-out; }
+    #ministry-teacher .card .socials {
+      margin-top: 10px; }
+      #ministry-teacher .card .socials .nav-link {
+        background: #999;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        margin: 0 5px;
+        line-height: 30px;
+        transition: all .9s ease; }
+        #ministry-teacher .card .socials .nav-link .fa {
+          color: white; }
+        #ministry-teacher .card .socials .nav-link:hover {
+          transition: all .9s ease;
+          background: #2b7a78; }
+
+#recent-sermons {
+  padding: 100px 20px;
+  background: #fff; }
+  #recent-sermons .recent-sermon-header {
+    padding-bottom: 20px; }
+    #recent-sermons .recent-sermon-header h3 {
+      font-size: 25px;
+      font-weight: 600; }
+  #recent-sermons .sermon {
+    background: black; }
+    #recent-sermons .sermon .sermon-text {
+      padding: 10px 10px; }
+      #recent-sermons .sermon .sermon-text a {
+        color: white; }
+      #recent-sermons .sermon .sermon-text h2 {
+        font-size: 20px; }
+      #recent-sermons .sermon .sermon-text .sermon-meta {
+        color: #555; }
+  #recent-sermons .seemore {
+    text-align: center;
+    margin-top: 30px; }
+
+#what-we-believe-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/about/what-we-believe/bg-4.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #what-we-believe-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #what-we-believe-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #what-we-believe-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #what-we-believe-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #what-we-believe-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#what-we-believe {
+  padding: 150px 20px 100px 20px;
+  background: #eee;
+  margin-top: -150px; }
+  #what-we-believe .row:last-child .col-md-8 {
+    margin-bottom: 20px; }
+  #what-we-believe .short-form {
+    margin-bottom: 80px; }
+    #what-we-believe .short-form h3 {
+      font-size: 35px;
+      font-weight: bold;
+      color: #2b7a78; }
+    #what-we-believe .short-form span {
+      color: #555;
+      font-style: italic;
+      font-size: 14px; }
+    #what-we-believe .short-form .quote {
+      line-height: 28px;
+      font-weight: 300;
+      font-style: italic;
+      margin-top: 25px; }
+  #what-we-believe .card {
+    background-color: #17141d;
+    border-radius: 10px;
+    transition: 0.4s ease-out;
+    padding: 20px 15px; }
+    #what-we-believe .card .title {
+      color: rgba(255, 255, 255, 0.6);
+      font-weight: 600;
+      line-height: 21px;
+      font-size: 1.3rem;
+      margin-bottom: 4px;
+      transition: 0.6s ease-out; }
+    #what-we-believe .card .chapter {
+      font-size: 14px;
+      color: #555;
+      font-style: italic;
+      line-height: 17px; }
+    #what-we-believe .card .bar {
+      position: absolute;
+      top: 50px;
+      left: 15px;
+      height: 5px;
+      width: 90%; }
+      #what-we-believe .card .bar .emptybar {
+        background-color: #2e3033;
+        width: 100%;
+        height: 100%; }
+      #what-we-believe .card .bar .filledbar {
+        position: absolute;
+        top: 0px;
+        z-index: 3;
+        width: 0px;
+        height: 100%;
+        background: #009ad9;
+        background: linear-gradient(90deg, white 0%, rgba(255, 255, 255, 0.5) 65%, #555555 85%, #2e3033 100%);
+        transition: 0.6s ease-out; }
+    #what-we-believe .card .verse {
+      font-size: 15px;
+      color: rgba(255, 255, 255, 0.5);
+      line-height: 20px;
+      font-weight: 300;
+      padding-top: 20px;
+      transition: 0.6s ease-out; }
+    #what-we-believe .card:hover {
+      transform: translateY(-2px);
+      transition: 0.4s ease-out; }
+      #what-we-believe .card:hover .title {
+        color: white;
+        transition: 0.6s ease-out; }
+      #what-we-believe .card:hover .verse {
+        color: rgba(255, 255, 255, 0.7);
+        transition: 0.6s ease-out; }
+      #what-we-believe .card:hover .filledbar {
+        width: 90%;
+        transition: 0.4s ease-out; }
+
+#women-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/ministry/women/bg_1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #women-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #women-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #women-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #women-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #women-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#youth-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/ministry/youth/bg_1.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #youth-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #youth-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #youth-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #youth-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #youth-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#children-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/ministry/children/children_bg.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #children-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #children-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #children-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #children-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #children-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }
+
+#men-intro {
+  background: linear-gradient(to right, black, rgba(13, 17, 32, 0.9), rgba(0, 0, 0, 0.2)), url("../../img/ministry/men/bg-7.jpg") no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0); }
+  #men-intro .contents {
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%, -15vh);
+    width: 100%; }
+    #men-intro .contents-message h1 {
+      color: white;
+      font-weight: bold; }
+    #men-intro .contents-message div {
+      color: #888;
+      font-style: italic; }
+      #men-intro .contents-message div .sub {
+        color: #2b7a78; }
+      #men-intro .contents-message div a {
+        color: white;
+        text-decoration: none; }

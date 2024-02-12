@@ -1,0 +1,205 @@
+#transportation-intro{padding-top: 100px;
+    padding-bottom: 100px;
+  background: $color-5;
+  /*     z-index: -90 */
+  .main-content{ 
+    
+      .content{
+         height: 100%;  
+      display: flex;
+      place-items: center;
+      .inner{
+        h2{
+                  font-size: 40px;
+                  line-height: 40px;
+                  margin-bottom: .5rem;
+                      font-weight: 600;
+              color: $color-1a
+          }
+          p{ color:$text-1}     
+      }
+          
+      }//content
+  }//main-content
+  
+            .img{display: flex;justify-content: flex-end}
+            .img img{
+            margin-left: 100px;
+            /*     width: 100%; */
+            position: relative;
+            z-index: 1
+            /*       display: block;   */
+            }
+            .img:after{
+                content: "";
+            position: absolute;
+
+            top: 45px;
+            left: 106px;
+            width: 80%;
+            height: 100%;
+            background-color: transparent;
+            // border: 30px solid rgba(0,0,0,0.1);
+            border: 30px solid $color-1;
+            /*     z-index: -1 */
+            }
+  
+  }
+
+#transport-intro{  
+    padding: 100px 0;
+    background: rgba(219,232,230,0.42);
+
+    &.square_shape2::before{
+        width: 1000px;
+      height: 1000px;
+   // position: absolute;
+       top: -220px;
+       right: -960px;
+   // content: "";
+   border: 90px solid rgba(191, 191, 191, 0.1);
+   // -moz-transform: rotate(45deg);
+   // -webkit-transform: rotate(45deg);
+   // -o-transform: rotate(45deg);
+   // -ms-transform: rotate(45deg);
+   // transform: rotate(45deg);
+   // z-index: -1 
+   }
+
+
+
+    .img-wrap{
+        position: relative;
+        .img{
+            img{
+                z-index: 6
+            }
+            &::before{
+                position: absolute;
+                top: -20px;
+                left: -20px;
+                width: 170px;
+                height: 170px;
+                content: " ";
+                // display: inline-block;
+                // content: url(assets/img/terminals/Square-Versatiles.svg);
+                // background: $color-1;
+                  // background-image: url(assets/img/terminals/Square-Versatiles.svg);
+                  //   background-size: 10px 20px;
+                background-color: rgba(255,255,255,.0);
+                 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='35' height='35' fill-opacity='0.78' fill='%23cccabe'/%3E%3C/svg%3E");
+                z-index: -4
+            }
+            &::after{
+                position: absolute;
+                bottom: -20px;
+                right: -20px;
+                width: 170px;
+                height: 170px;
+                // display: inline-block;
+                content: " ";
+                 background-color: rgba(255,255,255,.0);
+                 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 100 100'%3E%3Crect x='0' y='0' width='35' height='35' fill-opacity='0.78' fill='%23cccabe'/%3E%3C/svg%3E");
+                z-index: -4;
+                    transform: rotate(180deg)
+    
+            }
+        }
+    }
+    .content{
+        height: 100%;
+       display: grid;
+       // place-items: center;
+        // justify-content: center;
+        align-items: center;
+        .inner{
+            width: 90%;
+            margin-left: 20px;
+            .title{
+                h3{
+                font-size: 35px;
+                    font-weight: 800;
+                    color:$color-1
+                }
+            }
+        }
+    }
+
+}
+#transport-intro.truck{
+    background: #fff;
+    &.square_shape2::before{
+        width: 1000px;
+      height: 1000px;
+   // position: absolute;
+       top: -220px;
+       left: -760px;
+   border: 90px solid rgba(191, 191, 191, 0.1);
+
+   }
+    .inner{
+            margin-left: 0px;
+           
+        }
+}
+
+//===================================================================================
+  //===================================================================================
+  //                           RESPONSIVE
+  //===================================================================================
+  ///==================================================================================
+
+@media screen and (max-width: 479px) {
+    #transportation-intro{
+        padding: 20px 0;
+        .main-content{
+            .content{
+                .inner{
+                    margin-top: 0px;
+                  text-align: center;
+                   
+                margin-bottom: 10px;
+                 h2{font-size: 20px;
+                      margin-bottom: 0px;
+                    }
+                    p{font-size: 14px;line-height: 20px}
+            
+                } 
+            }
+        }
+        .img{
+            &::after{display:none}
+        }
+    }
+    
+    #transport-intro{
+        padding: 20px 0;
+        .img-wrap{
+            .img{
+                &::after,&::before{display: none}
+            }
+        }
+         .content{
+             margin-bottom: 10px;
+         .inner{
+             margin-top: 10px;
+             text-align: center;
+             .title{
+                 margin-bottom: 4px;
+                 h3{font-size: 20px;}
+             } 
+             .body{
+                 p{
+                  line-height: 20px;   
+                 }
+                 
+             }
+         }
+     }
+    }
+    
+    
+    
+    
+}//vport
+

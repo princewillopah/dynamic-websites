@@ -1,0 +1,23 @@
+@import "../generics/colors";
+
+#sign-reg{
+  background: $color-1;
+  position:relative;
+}
+
+#sign-header{
+  position: absolute;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  .navbar-nav a.nav-link{color:$color-6;font-weight: bold;font-family:Uni Sans ThinCap;}
+  .navbar a.navbar-brand{padding-left: 20px!important;}
+  #navbar{
+    .nav-color {
+      background:transparent;
+      //border-bottom: #b3b3b3 1px solid;
+      .navbar-brand{padding: 0!important;}
+    }
+
+  }
+}

@@ -1,0 +1,8 @@
+
+.checkout-btn{
+    color: #008080;font-weight:100; font-size: 30px; border: 3px solid #008080; background-color: transparent;cursor: pointer;
+}
+.checkout-btn:hover{
+    background-color:#008080; color: #eee; transition: all .7s ease;;
+}
+.active{font-weight: bold!important;}

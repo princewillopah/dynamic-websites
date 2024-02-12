@@ -1,0 +1,28 @@
+@import "../generics/colors";
+
+.sections{
+  padding: 100px 20px;
+  //text-align: center;
+  .head{
+    text-align: center;
+    margin-bottom: 50px;
+    h2{font-size: 30px;font-weight: 600;text-transform: uppercase; color: rgba($color-4,.9);font-family: 'Blinker', sans-serif!important;}
+    p{color: $color-6;font-weight: 500;}
+  }
+} // font-family: 'Blinker', sans-serif!important;
+.sections-white{
+  padding: 100px 20px;
+  // text-align: center;
+  .head{
+    text-align: center;
+    margin-bottom: 50px;
+    h2{font-size: 30px;font-weight: 600;text-transform: uppercase; color: rgba($color-1,.9);font-family: 'Blinker', sans-serif!important;}
+    p{color: $color-6;font-weight: 500;width:70%;text-align: center; margin: 0 auto;}
+  }
+}
+
+// .subhead{
+  h3{font-size: 20px;font-weight: 600;text-transform: uppercase; color: rgba($color-4,.6);font-family: 'Blinker', sans-serif!important;}
+  .h3{font-size: 20px;font-weight: 600;text-transform: uppercase; color: rgba($color-2,.8);font-family: 'Blinker', sans-serif!important;}
+// }
+h2{font-size: 30px;font-weight: 600;text-transform: uppercase; color: rgba($color-1,.8);font-family: 'Blinker', sans-serif!important;}

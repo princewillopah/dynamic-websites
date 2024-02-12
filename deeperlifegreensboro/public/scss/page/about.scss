@@ -1,0 +1,67 @@
+@import "../generics/colors";
+//=====================================================================================
+//                     about
+//=====================================================================================
+#about-intro{
+  background: linear-gradient(to right, rgba(black, 1.0), rgba($color-1, 0.9),rgba(0,0,0,0.2)),url('../../img/about/about/about-bg.png') no-repeat center center fixed ;
+  background-size: cover;
+  width: 100%;
+  height:80vh;
+  //display: flex;
+  //align-items: center;
+  //justify-content: center;
+  position: relative;
+  clip-path: polygon(100% 0, 100% 75%, 60% 75%, 50% 88%, 40% 75%, 0 75%, 0 0);
+  .contents{
+    position: absolute !important;
+    left: 50% !important;
+    top: 40vh !important;
+    transform: translate(-50%,-15vh);
+    width: 100%;
+    &-message{
+      h1{color:white;font-weight: bold}
+      div{color: #888; font-style: italic;
+        .sub{color: $color-3}
+        a{color:white;text-decoration: none;}
+      }
+    }
+  }
+}
+#who-we-are{
+  padding: 150px 20px 100px;
+  margin-top: -150px;
+  background: #eee;
+  .head{
+    padding-bottom: 35px;
+    text-align: center;
+    h1{font-weight: 800;font-size: 35px;padding-bottom: 15px;}
+    p{font-weight: 300; font-style: italic;color: $color-3}
+  }
+  .who-we-are{
+    p{font-style: italic;line-height: 25px;color: #555;}
+  }
+}
+#our-services{
+  padding: 80px 20px;
+  .heads{
+    padding-bottom: 35px;
+    text-align: center;
+    h1{font-weight: 800;font-size: 35px;}
+    }
+  .services{
+    text-align: center;
+    margin-bottom: 35px;
+    h3{font-size: 45px;color: $color-3; font-weight: bold}
+    p{font-style: italic;line-height: 25px;color: #777;margin-bottom: 4px;font-weight: 300;}
+  }
+}
+
+//=====================================================================================
+//                        media queries
+//=====================================================================================
+
+@media (max-width: 400px) {
+
+
+
+}

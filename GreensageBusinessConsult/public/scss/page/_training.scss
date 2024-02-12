@@ -1,0 +1,328 @@
+#training-hero {
+    width: 100%;
+    background-color: transparent;
+    background: url("../img/courses/training-in-lagos.png");
+    // background: url("../img/courses/online-bg.jpg");
+       background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 90%;
+        .container{
+        .content{
+            position: absolute;
+            top: 50%;
+            left: 20%;
+                               
+                                 font-family:"montserrat", sans-serif !important;
+                                 // width: 50%;
+                               h3{
+                                   display: inline-block;
+                                 background: $color-2;
+                               padding: 10px 10px;
+                               opacity: .7;
+                                   font-size: 50px;
+                                   color:#fff;
+                                   font-weight: 800
+                                }
+                               // h5{color:$text-0;margin-top: 10px;font-size: 22px;
+                               //     font-weight: 200;line-height: 22px;
+                               // }
+                                   p{ 
+                                       width: 50%;
+                                      // display: inline-block;
+                                 background: $color-2;
+                               padding: 10px 10px;  
+                                       margin-top: 5px;
+                                    color:#eee;
+                                    line-height: 20px;
+                                       span{color:#fff;font-weight: 600}
+                                          
+                                   }
+                                   // a{color: $head-3;}
+                           }
+                           // width: 80%;
+                           // margin: auto;
+                  
+            
+        }//container.iv-container
+    
+    
+    
+    }
+
+@media screen and (max-width: 900px) {
+    #training-hero {
+  
+    background: url("../img/courses/training-in-lagos-900.png");
+  
+       background-position: center;
+    background-size: cover;
+    height: 55%;
+        .container{
+        .content{
+            position: absolute;
+            top: 20%;
+            left: 20%;
+            height: 20%;
+                padding: 20px 10px;
+                               h3{
+                                 
+                                   font-size: 30px;
+                                }
+                                
+                           }
+                           // width: 80%;
+                           // margin: auto;
+                  
+            
+        }//container.iv-container
+    
+    
+    
+    }
+
+}
+@media screen and (max-width: 766px) {
+    #training-hero {
+  
+//     background: url("../img/courses/training-in-lagos-900.png");
+  
+//        background-position: center;
+//     background-size: cover;
+//     height: 55%;
+        .container{
+        .content{
+            top: 10%;
+            height: 100%;
+                padding: 0px 0px;
+            display: block;
+                               h3{
+                                 // display: block;
+                                   font-size: 25px;
+                                }
+                                 p{ 
+                               //         width: 50%;
+                               // padding: 10px 10px;  
+                               //         margin-top: 5px;
+                                          
+                                   }
+                           }
+                           // width: 80%;
+                           // margin: auto;
+                  
+            
+        }//container.iv-container
+    
+    
+    
+    }
+
+}
+@media screen and (max-width: 570px) {
+    #training-hero {
+  
+    background: url("../img/courses/training-in-lagos-570.png");
+  
+       background-position: center;
+    background-size: cover;
+    height: 40%;
+        .container{
+        .content{
+            // position: absolute;
+            // top: 40%;
+            // left: 20%;
+            // height: 20%;
+                // padding: 20px 10px;
+                               h3{
+                                 
+                                   font-size: 18px;
+                                }
+                                  p{ 
+                                       width: 50%;
+                               padding: 10px 10px; 
+                                      font-size: 11px;
+                                      line-height: 12px;
+                                       margin-top: 5px;
+                                          
+                                   } 
+                           }
+                           // width: 80%;
+                           // margin: auto;
+                  
+            
+        }//container.iv-container
+    
+    
+    
+    }
+
+}
+@media screen and (max-width: 456px) {
+    #training-hero {
+  
+//     background: url("../img/courses/training-in-lagos-570.png");
+  
+//        background-position: center;
+//     background-size: cover;
+//     height: 40%;
+        .container{
+        .content{
+            // position: absolute;
+            top: 40%;
+            left: 10%;
+            text-align: left;
+            // height: 20%;
+                // padding: 20px 10px;
+                               h3{
+                                 
+                                   font-size: 17px;
+                                }
+                                  p{ 
+                                       width: 70%;
+                               // padding: 10px 10px; 
+                               //        font-size: 11px;
+                               //        line-height: 12px;
+                               //         margin-top: 5px;
+                                          
+                                   } 
+                           }
+                           // width: 80%;
+                           // margin: auto;
+                  
+            
+        }//container.iv-container
+    
+    
+    
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    #training-hero {
+  
+    background: url("../img/courses/training-in-lagos-214.png");
+  
+       background-position: center;
+    background-size: cover;
+    height: 35%;
+        .container{
+        .content{
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            height: 100%;
+            
+                // padding: 20px 10px;
+                               h3{
+                                 
+                                   // font-size: 25px;
+                                   padding: 5px
+                                }
+                                
+                           }
+                           // width: 80%;
+                           // margin: auto;
+                  
+            
+        }//container.iv-container
+    
+    
+    
+    }
+
+}
+
+
+    // -----------------------------------------------------------------------------------------
+    // -----------------------------------------------------------------------------------------
+    // -----------------------------------------------------------------------------------------
+    #training-intro{
+        padding: 80px 0;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           .container  .main-content{
+           background: $color-2;
+            width: 80%;
+            margin: auto;
+            padding: 20px 30px;
+            .content{
+                   p{
+                color:#c2c1c1;
+                opacity: 1;
+                line-height: 22px;
+                font-size: 17px; 
+                span{display: block;
+                    font-weight: 900; 
+                        a{font-weight: normal;
+                            color: $color-1;
+                            font-weight: bold;
+                    }
+                }
+                
+            }
+            }
+         
+            
+        }
+    }
+    
+    @media screen and (max-width: 991px) {
+    #training-intro{
+        padding: 40px 0;
+        .container{max-width: 820px}
+          .container .main-content{
+            width: 100%;
+              .content{
+            p{font-size: 16px; line-height: 22px;
+                span{ 
+                        a{
+                           
+                    }
+                }
+                
+            }
+        }
+        }
+    }
+    
+    }
+    @media screen and (max-width: 767px) {
+    #training-intro{
+        padding: 40px 0;
+        // .container{max-width: 820px}
+          .container .main-content{
+            text-align: justify;
+              .content{
+                  display: block;
+            p{font-size: 15px; line-height: 21px;
+                span{
+                }
+                
+            }
+        } 
+        }
+    }
+    
+    }
+    @media screen and (max-width: 575.98px) {
+    #training-intro{
+        padding: 30px 5px;
+          .container .main-content{
+              .content{
+            p{
+                text-align: center;
+                font-size: 14px;
+                line-height: 20px;
+                span{
+                }
+                
+            }
+        }
+        }
+    }
+    }
+ 

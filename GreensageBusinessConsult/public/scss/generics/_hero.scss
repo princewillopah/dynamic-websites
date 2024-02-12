@@ -1,0 +1,189 @@
+.hero{
+   
+//   height: 70vh;
+  width: 100%;
+  background-color: transparent;
+    .container{
+        height: 100%;
+        .row{ 
+            height: 100%;
+            .col-md-12{
+                   .inner{
+                       height: 100%;
+                       width:100%;
+                    display: flex;
+                     align-items: center;
+                     // justify-content: center;
+                       .content{
+                             font-family:"montserrat", sans-serif !important;
+                           h2{
+                             
+                               font-size: 60px;
+                             
+                               color:$bg-3;
+                               font-weight: 700;
+                            //    color:#eee
+                            }
+                           h5{color:$text-0;margin-top: 10px;
+                           font-size: 22px;
+                               font-weight: 200;line-height: 22px;
+                           }
+                           .other-content{
+                               margin-top: 10px;
+                               p{ 
+                                   span{color:#fff;font-weight: 600}
+                                   a{color: $head-3;}
+                                   
+                               }
+                              
+                           }
+                       }
+                       // width: 80%;
+                       // margin: auto;
+                  }//.main-content
+            }//.col-md-12.iv-content
+        }//row.iv-row
+    }//container.iv-container
+
+
+
+}//
+
+ 
+    // ====================================================================================
+                                    // responsive
+    // ==================================================================================
+    @media (min-width: 320px) and (max-width: 500px) {
+        #hseq-hero {
+            background: linear-gradient(90deg, rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/hseq/bg-350-500.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 160px;
+            padding-top: 0px;
+             .container .row .col-md-12 .inner .content{
+                       border: 5px solid $color-2;
+                 border-right: none;
+                        padding: 20px 0 20px 20px;
+                 &::before{
+                    top: -5px;
+                    // background-color: #e87800;
+                    right: -5px;
+                    width: 5px;
+                    height: 25px;
+                }
+                 &::after{
+                       right: -5px;
+                        bottom: -5px;
+                        width: 5px;
+                        height: 25px;
+                 }
+                 h3{font-size: 20px} 
+             } 
+        }
+        #transport-hero {
+          background: linear-gradient(90deg, rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/transport/bg-350-500.jpg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          height: 160px;
+          padding-top: 0px;
+           .container .row .col-md-12 .inner .content{
+                     border: 5px solid $color-2;
+               border-right: none;
+                      padding: 20px 0 20px 20px;
+               &::before{
+                  top: -5px;
+                  // background-color: #e87800;
+                  right: -5px;
+                  width: 5px;
+                  height: 25px;
+              }
+               &::after{
+                     right: -5px;
+                      bottom: -5px;
+                      width: 5px;
+                      height: 25px;
+               }
+               h3{font-size: 20px} 
+           }   
+      }
+      #storage-hero {
+        background: linear-gradient(90deg, rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/storage/bg-350-500.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 160px;
+        padding-top: 0px;
+         .container .row .col-md-12 .inner .content{
+                   border: 5px solid $color-2;
+             border-right: none;
+                    padding: 20px 0 20px 20px;
+             &::before{
+                top: -5px;
+                // background-color: #e87800;
+                right: -5px;
+                width: 5px;
+                height: 25px;
+            }
+             &::after{
+                   right: -5px;
+                    bottom: -5px;
+                    width: 5px;
+                    height: 25px;
+             }
+             h3{font-size: 20px} 
+         }  
+    }
+        .contact-hero {
+            background: linear-gradient(90deg, rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/others/bg-350-500.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+           height: 160px;
+       padding-top: 0px;
+        .container .row .col-md-12 .inner .content{
+                  border: 5px solid $color-2;
+            border-right: none;
+                   padding: 20px 0 20px 20px;
+            &::before{
+               top: -5px;
+               // background-color: #e87800;
+               right: -5px;
+               width: 5px;
+               height: 25px;
+           }
+            &::after{
+                  right: -5px;
+                   bottom: -5px;
+                   width: 5px;
+                   height: 25px;
+            }
+            h3{font-size: 20px} 
+        } 
+        }
+       
+        // #road-tank-hero {
+        //   background: linear-gradient(90deg, rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/services/truck-bg-350-500.jpg");
+        //   background-size: cover;
+        //   background-repeat: no-repeat;
+        //  height: 160px;
+        //   padding-top: 30px;
+        //   .container .row .col-md-12 .inner .content h3{font-size: 20px} 
+        //   }
+// 
+    //     .hero, .about-hero{ 
+    //         height: 160px;
+    //             padding-top: 30px;
+    //             .container .row .col-md-12 .inner .content h3{font-size: 20px}    
+    //         }
+    //    .about-hero {
+    //     background: linear-gradient(90deg, rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/about/bg-350-500.jpg");
+      
+    // }
+    // .terminals-hero {
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    //     background: linear-gradient(90deg, rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/terminals/bg-350-500.jpg");
+    //   }
+
+
+
+    }//end 320-500
+    
